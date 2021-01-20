@@ -1,0 +1,374 @@
+
+@font-face {
+    font-family: 'geometria_regular';
+    src: url('../fonts/geometria_regular/geometria-webfont.eot');
+    src: url('../fonts/geometria_regular/geometria-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/geometria_regular/geometria-webfont.woff2') format('woff2'),
+         url('../fonts/geometria_regular/geometria-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'geometria_medium';
+    src: url('../fonts/geometria_medium/geometria-medium-webfont.eot');
+    src: url('../fonts/geometria_medium/geometria-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/geometria_medium/geometria-medium-webfont.woff2') format('woff2'),
+         url('../fonts/geometria_medium/geometria-medium-webfont.woff') format('woff'),
+         url('../fonts/geometria_medium/geometria-medium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'geometria_medium_italic';
+    src: url('../fonts/geometria_italic/geometria-mediumitalic-webfont.eot');
+    src: url('../fonts/geometria_italic/geometria-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/geometria_italic/geometria-mediumitalic-webfont.woff2') format('woff2'),
+         url('../fonts/geometria_italic/geometria-mediumitalic-webfont.woff') format('woff'),
+         url('../fonts/geometria_italic/geometria-mediumitalic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	font-family: 'geometria_regular';
+	color: #855d3d;
+	font-size: 16px;
+}
+
+p{
+	font-size: 12px;
+}
+
+li{
+	list-style: none;
+}
+
+ul{
+	padding: 0;
+}
+
+h1{
+	color: #fb8f40;
+	font-size: 14px;
+	line-height: 1;
+	margin-bottom: 5px;
+}
+
+h2{
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+h3{
+	text-transform: uppercase;
+	font-size: 24px;
+	padding-bottom: 16px;
+	margin-right: 15px;
+	margin-bottom: 0;
+	font-family: 'geometria_medium';
+}
+
+h4{
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: 'geometria_medium';
+	padding-left: 7px;
+	border-left: 3px solid #fb7517;
+}
+
+.header__decoration{
+	display: inline-block;
+	width: 10px;
+	height: 6px;
+	position: relative;
+	top: 10px;
+	background-color: #ffe7bc;
+	margin-right: 4px;
+}
+
+.header__decoration:before, .header__decoration:after{
+	content: '';
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;	
+	position: absolute;
+	left: 0;
+}
+
+.header__decoration:before{
+	border-bottom: 3px solid #ffe7bc;
+	top: -3px;
+}
+
+.header__decoration:after{
+	border-top: 3px solid #ffe7bc;
+	bottom: -3px;
+}
+
+.section-header{
+	margin: 0;
+}
+
+
+
+/*---header---*/
+
+header{
+	padding-top: 16px;
+	padding-bottom: 28px;
+}
+
+.header_content{
+	margin: 0;
+}
+
+/*logo and title*/
+
+.title{
+	margin-left: 8px;
+}
+
+.logo img{
+	width: 36px;
+	height: 36px;
+}
+
+/*contacts*/
+
+.contacts{
+	text-align: right;
+	font-size: 10px;
+}
+
+.btn_call_request{
+	height: 50px;
+	box-shadow: 0 0 13px rgba(157, 112, 75, 0.47);
+	border: 1px solid #ffe7bc;
+	border-radius: 25px;
+	background-color: #9d704b;
+	color: #ffffff;
+	font-size: 16px;
+}
+
+/*about us section*/
+
+.about-us__content{
+	position: relative;
+	padding: 16px 0 40px 0;
+}
+
+.about-us__content:before, .about-us__content:after{
+	content: '';
+	position: absolute;
+	left: -100%;
+	right: 0;
+	height: 2px;
+	background: #ffe7bc
+}
+
+.about-us__content:before{
+	top: 0;
+}
+
+.about-us__content:after{
+	bottom: 0;
+}
+
+.products{
+	padding-top: 16px;
+}
+
+.products-list{
+	padding-top: 67px;
+}
+
+/*.hexagon{
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  background: url(../images/backgrounds/bcg_product/bcg_pr_1.jpg) no-repeat;
+  background-size: cover;
+  margin: 10px auto;
+  height: 202px;
+  width: 175px;
+}
+*/
+
+.product__image{
+	text-align: center;
+	padding-bottom: 29px;
+	background: url(../images/backgrounds/hexagon.svg) 7px -4px no-repeat, url(../images/backgrounds/hexagon_filled.svg) 131px 76px no-repeat;
+	background-size: 123px 142px;
+}
+
+/*breed*/
+
+.breed{
+	background: #fff5e3;
+	min-height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 576px){
+	h1{
+		font-size: 26px;
+	}
+
+	h2{
+		font-size: 14px;
+	}
+
+	.contacts{
+		font-size: 14px;
+	}
+}
+
+
+
+
+
+
+@media (min-width: 992px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px){
+
+	h1{
+		font-size: 33px;
+		margin-bottom: 8px;
+	}
+
+	h2{
+		font-size: 16px;
+	}
+
+	h3{
+		text-transform: uppercase;
+		font-size: 36px;
+		padding-bottom: 25px;
+	}
+
+	h4{
+		font-size: 16px;
+		border-left: 5px solid #fb7517;
+	}
+
+	p{
+		font-size: 14px;
+	}
+
+	header{
+		background-image: url(../images/backgrounds/about-us.jpg);
+		background-size: 824px auto;
+		background-repeat: no-repeat;
+		background-position: 134% 110%;
+		background-attachment: local;
+		padding-bottom: 377px;
+	}
+
+	.title {
+    margin-left: 16px;
+	}
+
+	.contacts{
+		font-size: 16px;
+	}
+
+	.logo img{
+		width: 48px;
+		height: 48px;
+	}
+
+	.about-us {
+	   margin-top: -367px;
+	}
+
+	.about-us__content{
+		padding-top: 32px;
+		padding-bottom: 79px;
+	}
+
+
+	.header__decoration{
+		display: inline-block;
+		width: 14px;
+		height: 7px;
+		position: relative;
+		top: 15px;
+		background-color: #ffe7bc;
+		margin-right: 4px;
+	}
+
+	.header__decoration:before, .header__decoration:after{
+		content: '';
+		border-right: 7px solid transparent;
+		border-left: 7px solid transparent;	
+		position: absolute;
+		left: 0;
+	}
+
+	.header__decoration:before{
+		border-bottom: 5px solid #ffe7bc;
+		top: -5px;
+	}
+
+	.header__decoration:after{
+		border-top: 5px solid #ffe7bc;
+		bottom: -5px;
+	}
+
+	.products{
+		padding-top: 46px;
+		padding-bottom: 77px;
+	}
+
+
+}
+
+
