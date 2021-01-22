@@ -110,7 +110,12 @@ h4{
 	margin: 0;
 }
 
-.email:before, .phone:before{
+.header-email:before, 
+.header-phone:before,
+.contacts-email:before, 
+.contacts-phone:before,
+.contacts-location:before,
+.socials>li>a{
 	content: '';
 	background: url(../images/icons/css_sprites_icons.png);
 	position: absolute;
@@ -140,26 +145,26 @@ header{
 	height: 36px;
 }
 
-/*contacts*/
+/*header-contacts*/
 
-.contacts{
+.header-contacts{
 	text-align: right;
 	font-size: 10px;
 }
 
-.email, .phone{
+.header-email, .header-phone{
 	position: relative;
 	margin-bottom: 10px;
 }
 
-.email:before{
+.header-email:before{
 	width: 19px; height: 15px;
 	background-position: -142px -94px;
 	top: 0;
 	left: -22px;
 }
 
-.phone:before{
+.header-phone:before{
 	width: 19px; height: 19px;
 	background-position: -142px -71px;
 	top: 0;
@@ -200,36 +205,47 @@ header{
 	bottom: 0;
 }
 
+/*-------products AND bee-garden sections-----*/
+
 .products{
 	padding-top: 16px;
+}
+
+.our-bee-gardens{
+	padding-top: 45px;
+	background-color: #fff5e3;
+	padding-bottom: 43px;
 }
 
 .products-list{
 	padding-top: 67px;
 }
 
-/*.hexagon{
-  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-  background: url(../images/backgrounds/bcg_product/bcg_pr_1.jpg) no-repeat;
-  background-size: cover;
-  margin: 10px auto;
-  height: 202px;
-  width: 175px;
+.bee-garden-list{
+	padding-top: 38px;
 }
-*/
 
-.product__image{
+.product__image, .bee-garden__image{
 	min-width: 210px;
 	max-width: 255px;
 	margin: 0 auto;
 	text-align: center;
 	padding-bottom: 29px;
-	background: url(../images/backgrounds/hexagon.svg) 0 -7% no-repeat, url(../images/backgrounds/hexagon_filled.svg) 100% 85% no-repeat;
-	background-size: 123px 142px;
 	position: relative;
 }
 
-.product__item{
+.product__image{
+	background: url(../images/backgrounds/hexagon.svg) 0 -7% no-repeat, url(../images/backgrounds/hexagon_filled.svg) 100% 85% no-repeat;
+	background-size: 123px 142px;
+}
+
+.bee-garden__image{
+	background: url(../images/backgrounds/hexagon_dark.svg) 0 -7% no-repeat, url(../images/backgrounds/hexagon_filled.svg) 100% 85% no-repeat;
+	background-size: 123px 142px;
+}
+
+
+.product__item, bee-garden__item{
 	margin-bottom: 30px;
 }
 
@@ -253,44 +269,149 @@ header{
 .breed{
 	padding-top: 48px;
 	background: #fff5e3;
-	min-height: 500px;
 	overflow: hidden;
 }
 
-.breed .header__decoration{
+.breed .header__decoration, 
+.our-bee-gardens .header__decoration{
 	background-color: #fd7617;
 }
 
-.breed .header__decoration:before{
+.breed .header__decoration:before, 
+.our-bee-gardens .header__decoration:before{
 	border-bottom: 3px solid #fd7617;
 }
 
-.breed .header__decoration:after{
+.breed .header__decoration:after, 
+.our-bee-gardens  .header__decoration:after{
 	border-top: 3px solid #fd7617;
 }
 
 .breed__decoration img{
+	position: relative;
+	z-index: 10;
 	width: 263px;
 	height: 303px;
 	object-fit: cover;
 	clip-path: polygon(50% 0, 100% 22%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+.breed__decoration{
+	position: relative;
 	transform: translateX(50%);
+}
+
+.breed__decoration:before, .breed__decoration:after{
+	content: '';
+	width: 294px;
+	height: 338px;
+	position: absolute;
+}
+
+.breed__decoration:before{
+	top: 22px;
+	left: -40px;
+	background: url(../images/backgrounds/hexagon_dark.svg) no-repeat;
+	background-size: 290px 335px;
+}
+
+.breed__decoration:after{
+	bottom: 0;
+	right: -40px;
+	background: url(../images/backgrounds/hexagon_filled_dark.svg) no-repeat;
+	background-size: 290px 335px;
+}
+
+
+/*-------------our-team-----------------*/
+
+.our-team{
+	min-height: 300px;
+}
+
+/*------------contacts-----------------*/
+
+.contacts{
+	padding-top: 44px;
+	padding-bottom: 34px;
+	box-shadow: 0px 2px 13px 0px rgba(50, 50, 50, 0.15);
+	font-size: 16px;
+}
+
+.contacts p{
+	margin: 0;
+}
+
+.contacts-phone>span{
+	font-size: 22px;
+	color: #403933;
+}
+
+.contacts-phone{
+	padding-left: 40px;
+}
+
+.contacts-email{
+	padding-left: 47px;
+}
+
+.contacts-location{
+	padding-left: 33px;
+}
+
+.contacts-email:before{
+	width: 34px; height: 26px;
+	background-position: -165px -82px;
+	top: 0;
+	left: 0;
+} 
+
+.contacts-phone:before{
+	width: 32px; height: 32px;
+	background-position: -165px -46px;
+	top: 0;
+	left: 0;
+} 
+
+.contacts-location:before{
+	width: 24px; height: 32px;
+	background-position: -2px -123px;
+	top: 0;
+	left: 0;
+} 
+
+.socials{
+	justify-content: flex-end;
+}
+
+.socials>li{
+	margin-left: 13px;
+}
+
+.socials>li>a{
+	display: block;
+	position: static;
+	width: 48px; height: 48px;
+	background-position: -2px -71px;
+}
+
+.socials>li+li>a{
+	width: 51px; height: 51px;
+	background-position: -55px -2px;
+}
+
+.socials>li+li+li>a{
+	width: 51px; height: 51px;
+	background-position: -110px -2px;
 }
 
 
 
+/*-------map--------*/
 
-
-
-
-
-
-
-
-
-
-
-
+.map{
+	min-height: 300px;
+}
 
 
 
@@ -320,23 +441,23 @@ header{
 		font-size: 14px;
 	}
 
-	.contacts{
+	.header-contacts{
 		font-size: 14px;
 	}
 
-	.email, .phone{
+	.header-email, .header-phone{
 		padding-left: 25px;
 		margin-bottom: 5px;
 	}
 
-		.email:before{
+	.header-email:before{
 		width: 19px; height: 15px;
 		background-position: -142px -94px;
 		top: 5px;
 		left: 0;
 	}
 
-	.phone:before{
+	.header-phone:before{
 		width: 19px; height: 19px;
 		background-position: -142px -71px;
 		top: 5px;
@@ -419,11 +540,11 @@ header{
     margin-left: 16px;
 	}
 
-	.contacts{
+	.header-contacts{
 		font-size: 16px;
 	}
 
-	.phone{
+	.header-phone{
 		margin-left: 15px;
 	}
 
@@ -476,11 +597,13 @@ header{
     background-size: 300px auto;
  	}
 
-	.breed .header__decoration:before{
+	.breed .header__decoration:before,
+	.our-bee-gardens .header__decoration:before{
 		border-bottom: 5px solid #fd7617;
 	}
 
-	.breed .header__decoration:after{
+	.breed .header__decoration:after,
+	.our-bee-gardens .header__decoration:after{
 		border-top: 5px solid #fd7617;
 	}
 
@@ -489,7 +612,6 @@ header{
 		height: 605px;
 		object-fit: cover;
 		clip-path: polygon(50% 0, 100% 22%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-		transform: translateX(50%);
 	}
 }
 
