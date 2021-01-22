@@ -215,6 +215,7 @@ header{
 	padding-top: 45px;
 	background-color: #fff5e3;
 	padding-bottom: 43px;
+	margin-bottom: -70px;
 }
 
 .products-list{
@@ -326,20 +327,36 @@ header{
 /*-------------our-team-----------------*/
 
 .our-team{
+	padding-top: 45px;
 	min-height: 300px;
 }
 
 /*------------contacts-----------------*/
 
 .contacts{
-	padding-top: 44px;
+	padding-top: 90px;
 	padding-bottom: 34px;
-	box-shadow: 0px 2px 13px 0px rgba(50, 50, 50, 0.15);
+	box-shadow: 0px 6px 8px -1px rgba(0,0,0,0.21);
+	-webkit-box-shadow: 0px 6px 8px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: 0px 6px 8px -1px rgba(0,0,0,0.21);
 	font-size: 16px;
+	background: url(../images/backgrounds/bcg_bee_gardens.png) no-repeat;
+	background-position-x: calc(100% + 30px);
+	background-position-y: 0;	
+	background-size: 230px auto
 }
 
 .contacts p{
 	margin: 0;
+}
+
+.contacts__list{
+	margin-left: 15px;
+}
+
+.contacts__list>div{
+	margin-bottom: 20px;
+	font-size: 14px;
 }
 
 .contacts-phone>span{
@@ -363,29 +380,33 @@ header{
 	width: 34px; height: 26px;
 	background-position: -165px -82px;
 	top: 0;
-	left: 0;
+	left: 2px;
 } 
 
 .contacts-phone:before{
 	width: 32px; height: 32px;
 	background-position: -165px -46px;
 	top: 0;
-	left: 0;
+	left: 2px;
 } 
 
 .contacts-location:before{
 	width: 24px; height: 32px;
 	background-position: -2px -123px;
 	top: 0;
-	left: 0;
+	left: 2px;
 } 
 
 .socials{
-	justify-content: flex-end;
+	justify-content: flex-start;
 }
 
 .socials>li{
 	margin-left: 13px;
+}
+
+.socials>li:first-child{
+	margin-left: 0;
 }
 
 .socials>li>a{
@@ -464,14 +485,19 @@ header{
 		left: 0;
 	}
 
-/*	.products{
-		margin-top: -150px;
-		padding-top: 196px;
-		padding-bottom: 77px;
-		background: url(../images/backgrounds/bcg_products.png) no-repeat;
-		background-position-x: calc(100% + 50px;);
-	}*/
+	.contacts__list{
+		margin-left: 0;
+	}
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -484,6 +510,12 @@ header{
 		height: 455px;
 	}
 }
+
+
+
+
+
+
 
 
 
@@ -553,8 +585,6 @@ header{
 		height: 48px;
 	}
 
-
-
 	.about-us__content{
 		padding-top: 32px;
 		padding-bottom: 79px;
@@ -613,7 +643,25 @@ header{
 		object-fit: cover;
 		clip-path: polygon(50% 0, 100% 22%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 	}
+
+	.socials{
+		justify-content: flex-end;
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (min-width: 1440px){
@@ -633,6 +681,50 @@ header{
 
 	.products{
 		background: url(../images/backgrounds/bcg_products.png) -200px 0 no-repeat;
+	}
+
+	.contacts{
+	   background-position-x: calc(100% + 68px);
+	   background-position-y: 0;
+	   background-size: 330px auto;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1840px){
+
+	header {
+	   background-size: auto;
+	   background-position-x: calc(100% + 285px);
+	   background-position-y: -146px;
+	   padding-bottom: 543px;
+	}
+
+	.about-us {
+	   margin-top: -525px;
+	}
+
+
+	.our-bee-gardens{
+		margin-bottom: -190px;
+	}
+
+	.contacts{
+		padding-top: 220px;
+		background-position-x: calc(100% + 40px);
+		background-position-y: 0;	
+		background-size: auto;
 	}
 }
 
