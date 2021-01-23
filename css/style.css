@@ -115,7 +115,8 @@ h4{
 .contacts-email:before, 
 .contacts-phone:before,
 .contacts-location:before,
-.socials>li>a{
+.socials>li>a,
+.footer-socials>li>a{
 	content: '';
 	background: url(../images/icons/css_sprites_icons.png);
 	position: absolute;
@@ -427,12 +428,82 @@ header{
 }
 
 
+/*--------request-call--------------*/
 
-/*-------map--------*/
 
-.map{
-	min-height: 300px;
+.request-call{
+	padding-top: 45px;
+	padding-bottom: 50px;
+	background-color: #9b6f4a;
 }
+
+.request-call>.container>p{
+	color: #fff;
+	margin-bottom: 0;
+}
+
+.request-call h3{
+	color: #fff;
+}
+
+.request-call__form{
+	padding-top: 30px;
+}
+
+.request-call__input, .request-call__btn{
+	border-radius: 31px;
+	height: 64px;
+	font-size: 18px;
+}
+
+.request-call__input{
+	color: #9c7763;
+	padding-left: 38px;
+	margin-bottom: 10px;
+}
+
+.request-call__btn{
+	width: 100%;
+	background: transparent;
+	border: 2px solid #ffe7bc;
+	color: #fff;
+}
+
+/*---------------footer------------*/
+
+footer{
+	padding-top: 26px;
+	padding-bottom: 22px;
+}
+
+.footer-socials{
+	justify-content: flex-start;
+}
+
+.footer-socials>li{
+	margin-left: 9px;
+}
+
+.footer-socials>li:first-child{
+	margin-left: 0;
+}
+
+.footer-socials>li>a{
+	display: block;
+	position: static;
+	background-position: -98px -71px;
+	width: 40px; height: 40px;
+}
+
+.footer-socials>li+li>a{
+	background-position: -54px -71px;
+}
+
+.footer-socials>li+li+li>a{
+	background-position: -165px -2px;
+}
+
+
 
 
 
