@@ -49,11 +49,12 @@ ul{
 	padding: 0;
 }
 
-h1{
+.main-title{
 	color: #fb8f40;
 	font-size: 14px;
 	line-height: 1;
 	margin-bottom: 5px;
+	text-transform: uppercase;
 }
 
 h2{
@@ -63,7 +64,7 @@ h2{
 
 h3{
 	text-transform: uppercase;
-	font-size: 24px;
+	font-size: 20px;
 	padding-bottom: 16px;
 	margin-right: 15px;
 	margin-bottom: 0;
@@ -110,8 +111,8 @@ h4{
 	margin: 0;
 }
 
-.header-email:before, 
-.header-phone:before,
+.email:before, 
+.phone:before,
 .contacts-email:before, 
 .contacts-phone:before,
 .contacts-location:before,
@@ -153,19 +154,19 @@ header{
 	font-size: 10px;
 }
 
-.header-email, .header-phone{
+.email, .phone{
 	position: relative;
 	margin-bottom: 10px;
 }
 
-.header-email:before{
+.email:before{
 	width: 19px; height: 15px;
 	background-position: -142px -94px;
 	top: 0;
 	left: -22px;
 }
 
-.header-phone:before{
+.phone:before{
 	width: 19px; height: 19px;
 	background-position: -142px -71px;
 	top: 0;
@@ -180,6 +181,12 @@ header{
 	background-color: #9d704b;
 	color: #ffffff;
 	font-size: 16px;
+	transition: all .3s ease; 
+}
+
+.btn_call_request:hover{
+	color: #fff;
+	transform: scale(1.05);
 }
 
 /*--------about us section---------*/
@@ -344,7 +351,9 @@ header{
 	background: url(../images/backgrounds/bcg_bee_gardens.png) no-repeat;
 	background-position-x: calc(100% + 30px);
 	background-position-y: 0;	
-	background-size: 230px auto
+	background-size: 230px auto;
+	position: relative;
+	z-index: 5;
 }
 
 .contacts p{
@@ -434,6 +443,7 @@ header{
 .request-call{
 	padding-top: 45px;
 	padding-bottom: 50px;
+	background: url(../images/backgrounds/bcg_request_call.png)  0 100% no-repeat;
 	background-color: #9b6f4a;
 }
 
@@ -462,11 +472,32 @@ header{
 	margin-bottom: 10px;
 }
 
+input[type="text"]::-moz-placeholder {color: #9c7763;}
+input[type="text"]::-webkit-input-placeholder { color: #9c7763; }
+input[type="text"]:-ms-input-placeholder { color: #9c7763; }
+input[type="text"]::-ms-input-placeholder { color: #9c7763; }
+input[type="text"]::placeholder { color: #9c7763; } 
+
+.request-call__input:focus{
+    color: #9c7763;
+    border-color: #9c7763;
+    outline: 0;
+    box-shadow: none;
+}
+
 .request-call__btn{
 	width: 100%;
 	background: transparent;
 	border: 2px solid #ffe7bc;
 	color: #fff;
+	transition: all .3s ease;
+}
+
+.request-call__btn:hover {
+   color: #fff;
+   background-color: transparent;
+   border-color: #ffe7bc;
+   transform: scale(1.05);
 }
 
 /*---------------footer------------*/
@@ -474,6 +505,10 @@ header{
 footer{
 	padding-top: 26px;
 	padding-bottom: 22px;
+}
+
+footer .phone{
+	margin-left: 0;
 }
 
 .footer-socials{
@@ -503,6 +538,13 @@ footer{
 	background-position: -165px -2px;
 }
 
+footer .btn_call_request{
+	padding: 0 30px;
+}
+
+.copyright{
+	padding-top: 23px;
+}
 
 
 
@@ -525,7 +567,7 @@ footer{
 
 
 @media (min-width: 576px){
-	h1{
+	.main-title{
 		font-size: 26px;
 	}
 
@@ -537,19 +579,19 @@ footer{
 		font-size: 14px;
 	}
 
-	.header-email, .header-phone{
+	.email, .phone{
 		padding-left: 25px;
 		margin-bottom: 5px;
 	}
 
-	.header-email:before{
+	.email:before{
 		width: 19px; height: 15px;
 		background-position: -142px -94px;
 		top: 5px;
 		left: 0;
 	}
 
-	.header-phone:before{
+	.phone:before{
 		width: 19px; height: 19px;
 		background-position: -142px -71px;
 		top: 5px;
@@ -601,7 +643,7 @@ footer{
 
 @media (min-width: 992px){
 
-	h1{
+	.main-title{
 		font-size: 33px;
 		margin-bottom: 8px;
 	}
@@ -647,7 +689,7 @@ footer{
 		font-size: 16px;
 	}
 
-	.header-phone{
+	.phone{
 		margin-left: 15px;
 	}
 
