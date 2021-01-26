@@ -336,8 +336,41 @@ header{
 
 .our-team{
 	padding-top: 45px;
-	min-height: 300px;
+	padding-bottom: 48px;
 }
+.our-team__photo{
+	position: relative;
+	margin-bottom: 27px;
+}
+
+.out-team__content{
+	background-color: #fff5e3;
+}
+
+.our-team__photo img{
+	position: relative;
+	z-index: 10;
+	width: 248px;
+	height: 283px;
+	object-fit: cover;
+	clip-path: polygon(50% 0, 100% 22%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+.our-team__photo:before{
+	content: '';
+	width: 166px;
+	height: 190px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background: url(../images/backgrounds/hexagon_filled_2.svg) no-repeat;
+	background-size: 175px 201px;
+}
+
+
+
+
+
 
 /*------------contacts-----------------*/
 
