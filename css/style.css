@@ -341,10 +341,11 @@ header{
 .our-team__photo{
 	position: relative;
 	margin-bottom: 27px;
+	width: 265px;
 }
 
 .out-team__content{
-	background-color: #fff5e3;
+	background: linear-gradient(#fff5e3 63%, #fff 63%);
 }
 
 .our-team__photo img{
@@ -361,12 +362,60 @@ header{
 	width: 166px;
 	height: 190px;
 	position: absolute;
-	bottom: 0;
-	right: 0;
+	bottom: 7px;
+	right: -15px;
 	background: url(../images/backgrounds/hexagon_filled_2.svg) no-repeat;
 	background-size: 175px 201px;
 }
 
+.arrow-previous, .arrow-next{
+	display: inline-block;
+	width: 57px;
+	height: 57px;
+	box-shadow: 0 5px 9px rgba(0, 0, 0, 0.13);
+	background-color: #ff9833;
+	border-radius: 50%;
+	position: relative;
+}
+
+.arrow-next{
+	margin-left: 40px;
+}
+
+.arrow-previous:focus, .arrow-next:focus{
+	outline: none;
+}
+
+button:focus {
+   outline: none;
+}
+
+.arrow-previous:before, .arrow-next:before{
+	content: '';
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-left: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	position: absolute;
+	top: 18px;
+	left: 18px;
+}
+
+.arrow-previous:before{
+	transform: rotate(45deg);
+}
+
+.arrow-next:before{
+	transform: rotate(-135deg);
+}
+
+.owl-nav{
+	text-align: center;
+}
+.owl-dots{
+	display: none;
+}
 
 
 
@@ -469,6 +518,10 @@ header{
 	background-position: -110px -2px;
 }
 
+#map{
+   height: 300px;
+   width: 100%;
+}
 
 /*--------request-call--------------*/
 
@@ -643,6 +696,19 @@ footer .btn_call_request{
 		left: 0;
 	}
 
+
+	.about-us{
+	   background-image: url(../images/backgrounds/about-us_mobile.png);
+	   background-size: 380px auto;
+	   background-repeat: no-repeat;
+	   background-position-x: calc(100% + 128px);
+	   background-position-y: 100%;
+	}
+
+	.about-us__description{
+		padding-right: 45px;
+	}
+
 	.contacts__list{
 		margin-left: 0;
 	}
@@ -663,6 +729,7 @@ footer .btn_call_request{
 
 
 @media (min-width: 768px){
+
 	.breed__decoration img{
 		width: 210px;
 		height: 242px;
@@ -721,8 +788,9 @@ footer .btn_call_request{
 		padding-bottom: 377px;
 	}	
 
-	.about-us {
+	.about-us{
 	   margin-top: -367px;
+	   background: none;
 	}
 
 
