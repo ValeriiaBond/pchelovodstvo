@@ -324,13 +324,22 @@ header{
 	background-size: 175px 201px;
 }
 
-.breed__decoration:after{
+/*.breed__decoration:after{
 	bottom: -20px;
 	right: -25px;
 	background: url(../images/backgrounds/hexagon_filled_dark.svg) no-repeat;
 	background-size: 175px 201px;
 }
+*/
 
+.breed-year__accordion{
+	font-size: 12px;
+}
+
+.breed-year__card{
+	background: #fff5e3;
+	border: 1px solid #855d3d;
+}
 
 /*-------------our-team-----------------*/
 
