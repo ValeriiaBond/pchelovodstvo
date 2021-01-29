@@ -252,36 +252,7 @@ header{
 	margin-bottom: 30px;
 }
 
-.bee-garden__image img{
-	position: relative;
-	z-index: 10;
-   width: 220px;
-   height: 260px;
-	object-fit: cover;
-	clip-path: polygon(50% 0, 100% 22%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-}
 
-.bee-garden__image:after{
-	content: '';
-	width: 166px;
-	height: 190px;
-	position: absolute;
-	bottom: 20px;
-	right: -4px;
-	background: url(../images/backgrounds/hexagon_filled.svg) no-repeat;
-	background-size: 175px 201px;
-}
-
-.bee-garden__image:before{
-	content: '';
-	width: 166px;
-	height: 190px;
-	position: absolute;
-   top: -11px;
-   left: -8px;
-	background: url(../images/backgrounds/hexagon_dark.svg) no-repeat;
-	background-size: 175px 201px;
-}
 
 
 /*.product__image img{
@@ -431,6 +402,7 @@ header{
 	height: 283px;
 	object-fit: cover;
 	clip-path: polygon(50% 0, 100% 22%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+	margin: 0 auto;
 }
 
 .our-team__photo:before{
@@ -491,6 +463,41 @@ button:focus {
 }
 .owl-dots{
 	display: none;
+}
+
+/*--------bee-gardens----------*/
+
+
+.bee-garden__item.bee-garden__image img{
+	position: relative;
+	z-index: 10;
+   width: 212px;
+   height: 244px;
+	object-fit: cover;
+	clip-path: polygon(50% 0, 100% 22%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+	margin: 0 auto;
+}
+
+.bee-garden__image:after{
+	content: '';
+	width: 166px;
+	height: 190px;
+	position: absolute;
+	bottom: 20px;
+	right: -7px;
+	background: url(../images/backgrounds/hexagon_filled.svg) no-repeat;
+	background-size: 175px 201px;
+}
+
+.bee-garden__image:before{
+	content: '';
+	width: 166px;
+	height: 190px;
+	position: absolute;
+   top: -11px;
+   left: -7px;
+	background: url(../images/backgrounds/hexagon_dark.svg) no-repeat;
+	background-size: 175px 201px;
 }
 
 

@@ -238,7 +238,7 @@
 				<p>Ми вважаємо, що проведення якісної селекційної роботи неможливе без чіткого розділення праці та хорошої згуртованої команди. Команда - найцінніший капітал.</p>
 				<div class="row">
 					<div class="out-team__content col-lg-10 offset-lg-1">
-						<div class="owl-carousel owl-theme">
+						<div class="owl-carousel our-team__carousel">
 						   <div class="item">
 						   	<div class="our-team__photo"><img src="images/photo/gennadiy.jpg" alt=""></div>
 								<h4>Ізмайлов Геннадій Броніславович</h4>
@@ -267,37 +267,42 @@
 					<span class="header__decoration"></span>
 					<span class="header__decoration"></span>
 				</div>
-<!-- 				<p>Идейные соображения высшего порядка, а также реализация намеченных плановых заданий способствует подготовки и реализации новых предложений. Равным образом начало повседневной работы по формированию позиции обеспечивает широкому кругу (специалистов) участие в формировании системы обучения кадров, соответствует насущным потребностям. Идейные соображения высшего порядка, а также укрепление и развитие структуры требуют определения и уточнения форм развития. </p>
- -->				<ul class="bee-garden-list row">
+				<div class="owl-carousel bee-garden__carousel">
+					<div class="item bee-garden__item bee-garden__image">
+						<img src="images/photo/bee-garden_1.jpg" alt="разведение пчёл пасеки">
+					</div>
+					<div class="item bee-garden__item bee-garden__image">
+						<img src="images/photo/bee-garden_2.jpg" alt="разведение пчёл пасеки">
+					</div>
+					<div class="item bee-garden__item bee-garden__image">
+						<img src="images/photo/bee-garden_3.jpg" alt="разведение пчёл пасеки">
+					</div>
+					<div class="item bee-garden__item bee-garden__image">
+						<img src="images/photo/bee-garden_4.jpg" alt="разведение пчёл пасеки">
+					</div>
+				</div>	   
+			<!-- <ul class="bee-garden-list row">
 					<li class="col-md-6 col-lg-3 bee-garden__item">
 						<div class="bee-garden__image">
 							<img src="images/photo/bee-garden_1.jpg" alt="разведение пчёл пасеки">
 						</div>
-<!-- 						<h4>Условное название пасеки в две строки</h4>
- --><!-- 						<p>Значимость этих проблем настолько очевидна, что укрепление и развитие структуры обеспечивает широкому кругу (специалистов) участие в формировании форм развития.</p>
- -->					</li>
+				</li>
 					<li class="col-md-6 col-lg-3 bee-garden__item">
 						<div class="bee-garden__image">
 							<img src="images/photo/bee-garden_2.jpg" alt="разведение пчёл пасеки">
 						</div>						
-<!-- 						<h4>Условное название пасеки в две строки</h4>
- --><!-- 						<p>Значимость этих проблем настолько очевидна, что укрепление и развитие структуры обеспечивает широкому кругу (специалистов) участие в формировании форм развития.</p>
- -->					</li>
+				</li>
 					<li class="col-md-6 col-lg-3 bee-garden__item">
 						<div class="bee-garden__image">
 							<img src="images/photo/bee-garden_3.jpg" alt="разведение пчёл пасеки">
 						</div>						
-<!-- 						<h4>Условное название пасеки в две строки</h4>
- --><!-- 						<p>Значимость этих проблем настолько очевидна, что укрепление и развитие структуры обеспечивает широкому кругу (специалистов) участие в формировании форм развития.</p>
- -->					</li>
+				</li>
 					<li class="col-md-6 col-lg-3 bee-garden__item">
 						<div class="bee-garden__image">
 							<img src="images/photo/bee-garden_4.jpg" alt="разведение пчёл пасеки">
 						</div>
-<!-- 						<h4>Условное название пасеки в две строки</h4>
- --><!-- 						<p>Значимость этих проблем настолько очевидна, что укрепление и развитие структуры обеспечивает широкому кругу (специалистов) участие в формировании форм развития.</p>
- -->					</li>
-				</ul>
+				</li>
+				</ul> -->
 			</div>
 		</section>
 		<section class="contacts">
@@ -393,7 +398,7 @@
 	        });
 	}
 
-	$('.owl-carousel').owlCarousel({
+	$('.our-team__carousel').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
@@ -410,6 +415,30 @@
         },
         1250:{
             items:3
+        }
+    }
+})
+
+	$('.bee-garden__carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    navText: [
+  '<span class="arrow-owl arrow-previous"></span>',
+  '<span class="arrow-owl arrow-next"></span>'
+],
+    responsive:{
+        0:{
+            items:1
+        },
+        800:{
+            items:2
+        },
+        1000:{
+        		items:3
+        },
+        1250:{
+            items:4
         }
     }
 })
