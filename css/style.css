@@ -143,8 +143,8 @@ header{
 }
 
 .logo img{
-	width: 36px;
-	height: 36px;
+	width: 150px;
+	height: auto;
 }
 
 /*header-contacts*/
@@ -367,10 +367,46 @@ header{
 	color: #855d3d; 
 }
 
+.breed-year__btn:focus{
+	box-shadow: none;
+}
+
+.breed-year__btn:hover {
+   color: #855d3d;
+   text-decoration: none;
+}
+
+.breed-year__btn:hover {
+   color: #855d3d;
+   text-decoration: none;
+}
+
 .breed-year__card{
 	background: #fff5e3;
 	border: 1px solid #855d3d;
 }
+
+.breed-year__body{
+	padding: 0;
+}
+
+.breed-year__btn-know-more{
+	padding: 10px 25px;
+	margin-top: 20px;
+	box-shadow: 0 0 13px rgba(157, 112, 75, 0.47);
+	border: 1px solid #ffe7bc;
+	border-radius: 25px;
+	background-color: #9d704b;
+	color: #ffffff;
+	font-size: 16px;
+	transition: all .3s ease; 
+}
+
+.breed-year__btn-know-more:hover{
+	color: #fff;
+	transform: scale(1.05);
+}
+
 
 /*-------------our-team-----------------*/
 
@@ -749,6 +785,11 @@ footer .btn_call_request{
 		padding-right: 45px;
 	}
 
+	.breed-year__body{
+		padding: 20px;
+	}
+
+
 	.contacts__list{
 		margin-left: 0;
 	}
@@ -774,6 +815,8 @@ footer .btn_call_request{
 		width: 210px;
 		height: 242px;
 	}
+
+
 }
 
 
@@ -838,6 +881,11 @@ footer .btn_call_request{
     margin-left: 16px;
 	}
 
+		.logo img{
+		width: 310px;
+		height: auto;
+	}
+
 	.header-contacts{
 		font-size: 16px;
 	}
@@ -846,10 +894,10 @@ footer .btn_call_request{
 		margin-left: 15px;
 	}
 
-	.logo img{
+/*	.logo img{
 		width: 48px;
 		height: 48px;
-	}
+	}*/
 
 	.about-us__content{
 		padding-top: 32px;
