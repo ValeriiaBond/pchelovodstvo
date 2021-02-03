@@ -357,17 +357,17 @@
 								    </tr>
 								  </thead>
 								  <tbody>
-								    <tr>
+								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B118(GBI)-2020">
 								      <th scope="row">Buckfast</th>
 								      <td>B118 (GBI)</td>
 								      <td>Натуральное изолированное</td>
 								    </tr>
-								    <tr>
+								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B14(GBI)-2020">
 								      <th scope="row">Buckfast</th>
 								      <td>B14 (GBI)</td>
 								      <td>Инструментальное</td>
 								    </tr>
-								    <tr>
+								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B16(GBI)-2020">
 								      <th scope="row">Buckfast</th>
 								      <td>B16 (GBI)</td>
 								      <td>Натуральное частично изолированное</td>
@@ -615,6 +615,11 @@
 	
 
    <script>
+       
+       $('tr[data-href]').on("click", function() {
+        document.location = $(this).data('href');
+    });
+       
 	function initMap() {
 	  const myLatLng = { lat: 49.94226399215445, lng: 36.23969134038095};
 	  const map = new google.maps.Map(document.getElementById("map"), {
