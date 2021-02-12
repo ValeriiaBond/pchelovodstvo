@@ -481,10 +481,9 @@ button:focus {
     right: 25%;
     height: 2px;
     background: #ffe7bc;
-}
-.dealers:before{
     top: 0;
 }
+
 .dealers__list{
     display: flex;
     justify-content: space-between;
