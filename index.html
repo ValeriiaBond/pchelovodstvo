@@ -19,20 +19,27 @@
 <body>
 	<header>
 		<div class="container">
-			<div class="row justify-content-between">
-				<div class="col-7 col-lg-3">
-					<div class="logo"><img src="images/logo.jpg" alt="українська матковівидна компанія"></div>
-<!-- 					<div class="title">
-						<h1 class="main-title">Пчеловодство</h1>
-						<h2>разведение и продажа пчел</h2>
-					</div> -->
-				</div>
-				<div class="col-auto d-lg-flex header-contacts">
-					<div class="email">bee_pasic@gmail.ru</div>
+		    <nav class="navbar menu__body navbar-expand-lg navbar-light">
+              <div class="logo"><img src="images/logo.jpg" alt="українська матковівидна компанія"></div>
+              <button class="navbar-toggler menu__toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse menu__collapse" id="navbarNav">
+                <ul class="navbar-nav menu__list">
+                  <li class="nav-item menu__item header-contacts">
+                    <div class="email">bee_pasic@gmail.ru</div>
 					<div class="phone">+38 (00) 00-00-00</div>
-				</div>
-				<button type="button" class="col-2 d-none d-lg-block btn btn_call_request">Заказать звонок</button>
-			</div>
+                  </li>
+                  <li class="nav-item menu__item">
+                    <ul class="lang__btn-group d-flex">
+                        <li class="lang__btn active"><a href="#">Укр</a></li>
+                        <li class="lang__btn"><a href="#">Рус</a></li>
+                        <li class="lang__btn"><a href="#">Eng</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </nav>
 		</div>
 	</header>
 	<main>

@@ -49,6 +49,10 @@ ul{
 	padding: 0;
 }
 
+a:hover{
+    text-decoration: none;
+}
+
 .main-title{
 	color: #fb8f40;
 	font-size: 14px;
@@ -136,6 +140,17 @@ header{
 	margin: 0;
 }
 
+.menu__toggler{
+    margin-top: 15px;
+}
+
+.menu__list{
+    padding-top: 20px;
+}
+.menu__item{
+    padding-bottom: 10px;
+}
+
 /*logo and title*/
 
 .title{
@@ -150,27 +165,27 @@ header{
 /*header-contacts*/
 
 .header-contacts{
-	text-align: right;
 	font-size: 10px;
 }
 
 .email, .phone{
 	position: relative;
 	margin-bottom: 10px;
+    padding-left: 22px;
 }
 
 .email:before{
 	width: 19px; height: 15px;
 	background-position: -142px -94px;
 	top: 0;
-	left: -22px;
+	left: 0;
 }
 
 .phone:before{
 	width: 19px; height: 19px;
 	background-position: -142px -71px;
 	top: 0;
-	left: -22px;
+	left: 0;
 }
 
 .btn_call_request{
@@ -188,6 +203,28 @@ header{
 	color: #fff;
 	transform: scale(1.05);
 }
+
+.lang__btn {
+    margin-left: 5px;
+}
+.lang__btn a{
+    display: block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 11px;
+    box-sizing: border-box;
+    padding-top: 7px;
+    background: url(../images/backgrounds/hexagon_filled.svg) no-repeat, url(../images/backgrounds/hexagon_dark.svg);
+    background-size: cover;
+    color: #9d704b;  
+}
+
+.lang__btn.active a{
+     background: url(../images/backgrounds/hexagon_filled_dark.svg) no-repeat;
+    color: #fff;
+}
+
 
 /*--------about us section---------*/
 
@@ -919,6 +956,19 @@ footer .btn_call_request{
 		background-position-y: -80px;		
 		padding-bottom: 377px;
 	}	
+    .menu__collapse{
+        justify-content: flex-end;
+    }
+
+    .lang__btn {
+    margin-left: 20px;
+}
+.lang__btn a{
+    width: 50px;
+    height: 50px;
+    font-size: 14px;
+    padding-top: 12px;
+}
 
 	.about-us{
 	   margin-top: -367px;
@@ -937,11 +987,10 @@ footer .btn_call_request{
 
 	.header-contacts{
 		font-size: 16px;
+        align-self: center;
 	}
 
-	.phone{
-		margin-left: 15px;
-	}
+
 
 /*	.logo img{
 		width: 48px;
@@ -1069,6 +1118,15 @@ footer .btn_call_request{
 		background-position-y: -110px;		
 		padding-bottom: 377px;
 	}	
+        .lang__btn-group{
+        margin-left: 30px;
+    }
+    .header-contacts{
+        display: flex;
+    }
+    	.phone{
+		margin-left: 15px;
+	}
 
 	.about-us {
 	   margin-top: -367px;
