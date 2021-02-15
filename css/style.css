@@ -1,10 +1,9 @@
-
 @font-face {
     font-family: 'geometria_regular';
     src: url('../fonts/geometria_regular/geometria-webfont.eot');
     src: url('../fonts/geometria_regular/geometria-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/geometria_regular/geometria-webfont.woff2') format('woff2'),
-         url('../fonts/geometria_regular/geometria-webfont.woff') format('woff');
+        url('../fonts/geometria_regular/geometria-webfont.woff2') format('woff2'),
+        url('../fonts/geometria_regular/geometria-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -13,9 +12,9 @@
     font-family: 'geometria_medium';
     src: url('../fonts/geometria_medium/geometria-medium-webfont.eot');
     src: url('../fonts/geometria_medium/geometria-medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/geometria_medium/geometria-medium-webfont.woff2') format('woff2'),
-         url('../fonts/geometria_medium/geometria-medium-webfont.woff') format('woff'),
-         url('../fonts/geometria_medium/geometria-medium-webfont.ttf') format('truetype');
+        url('../fonts/geometria_medium/geometria-medium-webfont.woff2') format('woff2'),
+        url('../fonts/geometria_medium/geometria-medium-webfont.woff') format('woff'),
+        url('../fonts/geometria_medium/geometria-medium-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -24,269 +23,283 @@
     font-family: 'geometria_medium_italic';
     src: url('../fonts/geometria_italic/geometria-mediumitalic-webfont.eot');
     src: url('../fonts/geometria_italic/geometria-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/geometria_italic/geometria-mediumitalic-webfont.woff2') format('woff2'),
-         url('../fonts/geometria_italic/geometria-mediumitalic-webfont.woff') format('woff'),
-         url('../fonts/geometria_italic/geometria-mediumitalic-webfont.ttf') format('truetype');
+        url('../fonts/geometria_italic/geometria-mediumitalic-webfont.woff2') format('woff2'),
+        url('../fonts/geometria_italic/geometria-mediumitalic-webfont.woff') format('woff'),
+        url('../fonts/geometria_italic/geometria-mediumitalic-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
-body{
-	font-family: 'geometria_regular';
-	color: #855d3d;
-	font-size: 16px;
+body {
+    font-family: 'geometria_regular';
+    color: #855d3d;
+    font-size: 16px;
 }
 
-p{
-	font-size: 12px;
+p {
+    font-size: 12px;
 }
 
-li{
-	list-style: none;
+li {
+    list-style: none;
 }
 
-ul{
-	padding: 0;
+ul {
+    padding: 0;
 }
 
-a:hover{
+a:hover {
     text-decoration: none;
 }
 
-.main-title{
-	color: #fb8f40;
-	font-size: 14px;
-	line-height: 1;
-	margin-bottom: 5px;
-	text-transform: uppercase;
+.main-title {
+    color: #fb8f40;
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 5px;
+    text-transform: uppercase;
 }
 
-h2{
-	text-transform: uppercase;
-	font-size: 10px;
+h2 {
+    text-transform: uppercase;
+    font-size: 10px;
 }
 
-h3{
-	text-transform: uppercase;
-	font-size: 20px;
-	padding-bottom: 16px;
-	margin-right: 15px;
-	margin-bottom: 0;
-	font-family: 'geometria_medium';
+h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-bottom: 16px;
+    margin-right: 15px;
+    margin-bottom: 0;
+    font-family: 'geometria_medium';
 }
 
-h4{
-	text-transform: uppercase;
-	font-size: 12px;
-	font-family: 'geometria_medium';
-	padding-left: 7px;
-	border-left: 3px solid #fb7517;
+h4 {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'geometria_medium';
+    padding-left: 7px;
+    border-left: 3px solid #fb7517;
 }
 
-.header__decoration{
-	display: inline-block;
-	width: 10px;
-	height: 6px;
-	position: relative;
-	top: 10px;
-	background-color: #ffe7bc;
-	margin-right: 4px;
+.header__decoration {
+    display: inline-block;
+    width: 10px;
+    height: 6px;
+    position: relative;
+    top: 10px;
+    background-color: #ffe7bc;
+    margin-right: 4px;
 }
 
-.header__decoration:before, .header__decoration:after{
-	content: '';
-	border-right: 5px solid transparent;
-	border-left: 5px solid transparent;	
-	position: absolute;
-	left: 0;
+.header__decoration:before,
+.header__decoration:after {
+    content: '';
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    position: absolute;
+    left: 0;
 }
 
-.header__decoration:before{
-	border-bottom: 3px solid #ffe7bc;
-	top: -3px;
+.header__decoration:before {
+    border-bottom: 3px solid #ffe7bc;
+    top: -3px;
 }
 
-.header__decoration:after{
-	border-top: 3px solid #ffe7bc;
-	bottom: -3px;
+.header__decoration:after {
+    border-top: 3px solid #ffe7bc;
+    bottom: -3px;
 }
 
-.section-header{
-	margin: 0;
+.section-header {
+    margin: 0;
 }
 
-.email:before, 
+.email:before,
 .phone:before,
-.contacts-email:before, 
+.contacts-email:before,
 .contacts-phone:before,
 .contacts-location:before,
-.socials>li>a,
-.footer-socials>li>a{
-	content: '';
-	background: url(../images/icons/css_sprites_icons.png);
-	position: absolute;
+.socials > li > a,
+.footer-socials > li > a {
+    content: '';
+    background: url(../images/icons/css_sprites_icons.png);
+    position: absolute;
 }
 
 
 
 /*------------header-----------*/
 
-header{
-	padding-top: 16px;
-	padding-bottom: 28px;
+header {
+    padding-top: 16px;
+    padding-bottom: 28px;
 }
 
-.header_content{
-	margin: 0;
+.header_content {
+    margin: 0;
 }
 
-.menu__toggler{
+.menu__toggler {
     margin-top: 15px;
 }
 
-.menu__list{
+.menu__list {
     padding-top: 20px;
 }
-.menu__item{
+
+.menu__item {
     padding-bottom: 10px;
 }
 
 /*logo and title*/
 
-.title{
-	margin-left: 8px;
+.title {
+    margin-left: 8px;
 }
 
-.logo img{
-	width: 150px;
-	height: auto;
+.logo img {
+    width: 180px;
+    height: auto;
 }
 
 /*header-contacts*/
 
 .header-contacts{
-	font-size: 10px;
+    font-size: 14px;
 }
 
-.email, .phone{
-	position: relative;
-	margin-bottom: 10px;
+.email,
+.phone {
+    position: relative;
+    margin-bottom: 10px;
     padding-left: 22px;
 }
 
-.email:before{
-	width: 19px; height: 15px;
-	background-position: -142px -94px;
-	top: 0;
-	left: 0;
+.phone > p {
+    margin-bottom: 0;
+    font-size: 14px;
 }
 
-.phone:before{
-	width: 19px; height: 19px;
-	background-position: -142px -71px;
-	top: 0;
-	left: 0;
+.email:before {
+    width: 19px;
+    height: 15px;
+    background-position: -142px -94px;
+    top: 0;
+    left: 0;
 }
 
-.btn_call_request{
-	height: 50px;
-	box-shadow: 0 0 13px rgba(157, 112, 75, 0.47);
-	border: 1px solid #ffe7bc;
-	border-radius: 25px;
-	background-color: #9d704b;
-	color: #ffffff;
-	font-size: 16px;
-	transition: all .3s ease; 
+.phone:before {
+    width: 19px;
+    height: 19px;
+    background-position: -142px -71px;
+    top: 0;
+    left: 0;
 }
 
-.btn_call_request:hover{
-	color: #fff;
-	transform: scale(1.05);
+.btn_call_request {
+    height: 50px;
+    box-shadow: 0 0 13px rgba(157, 112, 75, 0.47);
+    border: 1px solid #ffe7bc;
+    border-radius: 25px;
+    background-color: #9d704b;
+    color: #ffffff;
+    font-size: 16px;
+    transition: all .3s ease;
+}
+
+.btn_call_request:hover {
+    color: #fff;
+    transform: scale(1.05);
 }
 
 .lang__btn {
     margin-left: 5px;
 }
-.lang__btn a{
+
+.lang__btn a {
     display: block;
     text-align: center;
-    width: 30px;
-    height: 30px;
-    font-size: 11px;
+            width: 50px;
+        height: 50px;
+        font-size: 14px;
+        padding-top: 12px;
     box-sizing: border-box;
-    padding-top: 7px;
     background: url(../images/backgrounds/hexagon_filled.svg) no-repeat, url(../images/backgrounds/hexagon_dark.svg);
     background-size: cover;
-    color: #9d704b;  
+    color: #9d704b;
 }
 
-.lang__btn.active a{
-     background: url(../images/backgrounds/hexagon_filled_dark.svg) no-repeat;
+.lang__btn.active a {
+    background: url(../images/backgrounds/hexagon_filled_dark.svg) no-repeat;
     color: #fff;
 }
 
 
 /*--------about us section---------*/
 
-.about-us__content{
-	position: relative;
-	padding: 16px 0 40px 0;
+.about-us__content {
+    position: relative;
+    padding: 16px 0 40px 0;
 }
 
-.about-us__content:before, .about-us__content:after{
-	content: '';
-	position: absolute;
-	left: -100%;
-	right: 0;
-	height: 2px;
-	background: #ffe7bc
+.about-us__content:before,
+.about-us__content:after {
+    content: '';
+    position: absolute;
+    left: -100%;
+    right: 0;
+    height: 2px;
+    background: #ffe7bc
 }
 
-.about-us__content:before{
-	top: 0;
+.about-us__content:before {
+    top: 0;
 }
 
-.about-us__content:after{
-	bottom: 0;
+.about-us__content:after {
+    bottom: 0;
 }
 
 /*-------products AND bee-garden sections-----*/
 
-.products{
-	padding-top: 16px;
+.products {
+    padding-top: 16px;
 }
 
-.our-bee-gardens{
-	padding-top: 45px;
-	background-color: #fff5e3;
-	padding-bottom: 43px;
-	margin-bottom: -70px;
+.our-bee-gardens {
+    padding-top: 45px;
+    background-color: #fff5e3;
+    padding-bottom: 43px;
+    margin-bottom: -70px;
 }
 
-.products-list{
-	padding-top: 67px;
+.products-list {
+    padding-top: 67px;
 }
 
-.bee-garden-list{
-	padding-top: 38px;
+.bee-garden-list {
+    padding-top: 38px;
 }
 
-.product__image, .bee-garden__image{
-	min-width: 210px;
-	max-width: 255px;
-	margin: 0 auto;
-	text-align: center;
-	padding-bottom: 29px;
-	position: relative;
+.product__image,
+.bee-garden__image {
+    min-width: 210px;
+    max-width: 255px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 29px;
+    position: relative;
 }
 
-.product__image{
-	background: url(../images/backgrounds/hexagon.svg) 0 -7% no-repeat, url(../images/backgrounds/hexagon_filled.svg) 100% 85% no-repeat;
-	background-size: 123px 142px;
+.product__image {
+    background: url(../images/backgrounds/hexagon.svg) 0 -7% no-repeat, url(../images/backgrounds/hexagon_filled.svg) 100% 85% no-repeat;
+    background-size: 123px 142px;
 }
 
-.product__item, .bee-garden__item{
-	margin-bottom: 30px;
+.product__item,
+.bee-garden__item {
+    margin-bottom: 30px;
 }
 
 
@@ -309,54 +322,55 @@ header{
 
 /*--------breed----------*/
 
-.breed{
-	padding-top: 48px;
-	background: #fff5e3;
-	overflow: hidden;
-	padding-bottom: 40px;
+.breed {
+    padding-top: 48px;
+    background: #fff5e3;
+    overflow: hidden;
+    padding-bottom: 40px;
 }
 
-.breed .header__decoration, 
-.our-bee-gardens .header__decoration{
-	background-color: #fd7617;
+.breed .header__decoration,
+.our-bee-gardens .header__decoration {
+    background-color: #fd7617;
 }
 
-.breed .header__decoration:before, 
-.our-bee-gardens .header__decoration:before{
-	border-bottom: 3px solid #fd7617;
+.breed .header__decoration:before,
+.our-bee-gardens .header__decoration:before {
+    border-bottom: 3px solid #fd7617;
 }
 
-.breed .header__decoration:after, 
-.our-bee-gardens  .header__decoration:after{
-	border-top: 3px solid #fd7617;
+.breed .header__decoration:after,
+.our-bee-gardens .header__decoration:after {
+    border-top: 3px solid #fd7617;
 }
 
-.breed__decoration img{
-	position: relative;
-	z-index: 10;
-	width: 175px;
-	height: 201px;
-	object-fit: cover;
-	clip-path: polygon(50% 0, 100% 22%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+.breed__decoration img {
+    position: relative;
+    z-index: 10;
+    width: 175px;
+    height: 201px;
+    object-fit: cover;
+    clip-path: polygon(50% 0, 100% 22%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
 
-.breed__decoration{
-	position: relative;
-	transform: translateX(50%);
+.breed__decoration {
+    position: relative;
+    transform: translateX(50%);
 }
 
-.breed__decoration:before, .breed__decoration:after{
-	content: '';
-	width: 175px;
-	height: 201px;
-	position: absolute;
+.breed__decoration:before,
+.breed__decoration:after {
+    content: '';
+    width: 175px;
+    height: 201px;
+    position: absolute;
 }
 
-.breed__decoration:before{
-	top: -20px;
-	left: -30px;
-	background: url(../images/backgrounds/hexagon_dark.svg) no-repeat;
-	background-size: 175px 201px;
+.breed__decoration:before {
+    top: -20px;
+    left: -30px;
+    background: url(../images/backgrounds/hexagon_dark.svg) no-repeat;
+    background-size: 175px 201px;
 }
 
 /*.breed__decoration:after{
@@ -367,139 +381,144 @@ header{
 }
 */
 
-.breed-year__accordion{
-	font-size: 12px;
+.breed-year__accordion {
+    font-size: 12px;
 }
 
-.breed-year__btn{
-	color: #855d3d; 
+.breed-year__btn {
+    color: #855d3d;
 }
 
-.breed-year__btn:focus{
-	box-shadow: none;
-}
-
-.breed-year__btn:hover {
-   color: #855d3d;
-   text-decoration: none;
+.breed-year__btn:focus {
+    box-shadow: none;
 }
 
 .breed-year__btn:hover {
-   color: #855d3d;
-   text-decoration: none;
+    color: #855d3d;
+    text-decoration: none;
 }
 
-.breed-year__card{
-	background: #fff5e3;
-	border: 1px solid #855d3d;
+.breed-year__btn:hover {
+    color: #855d3d;
+    text-decoration: none;
 }
 
-.breed-year__body{
-	padding: 0;
+.breed-year__card {
+    background: #fff5e3;
+    border: 1px solid #855d3d;
 }
 
-.breed-year__btn-know-more{
-	padding: 10px 25px;
-	margin-top: 20px;
-	box-shadow: 0 0 13px rgba(157, 112, 75, 0.47);
-	border: 1px solid #ffe7bc;
-	border-radius: 25px;
-	background-color: #9d704b;
-	color: #ffffff;
-	font-size: 16px;
-	transition: all .3s ease; 
+.breed-year__body {
+    padding: 0;
 }
 
-.breed-year__btn-know-more:hover{
-	color: #fff;
-	transform: scale(1.05);
+.breed-year__btn-know-more {
+    padding: 10px 25px;
+    margin-top: 20px;
+    box-shadow: 0 0 13px rgba(157, 112, 75, 0.47);
+    border: 1px solid #ffe7bc;
+    border-radius: 25px;
+    background-color: #9d704b;
+    color: #ffffff;
+    font-size: 16px;
+    transition: all .3s ease;
+}
+
+.breed-year__btn-know-more:hover {
+    color: #fff;
+    transform: scale(1.05);
 }
 
 
 /*-------------our-team-----------------*/
 
-.our-team{
-	padding-top: 45px;
-	padding-bottom: 48px;
-}
-.our-team__photo{
-	position: relative;
-	margin-bottom: 27px;
-	width: 265px;
+.our-team {
+    padding-top: 45px;
+    padding-bottom: 48px;
 }
 
-.out-team__content{
-	background: linear-gradient(#fff5e3 63%, #fff 63%);
+.our-team__photo {
+    position: relative;
+    margin-bottom: 27px;
+    width: 265px;
 }
 
-.our-team__photo img{
-	position: relative;
-	z-index: 10;
-	width: 248px;
-	height: 283px;
-	object-fit: cover;
-	clip-path: polygon(50% 0, 100% 22%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-	margin: 0 auto;
+.out-team__content {
+    background: linear-gradient(#fff5e3 63%, #fff 63%);
 }
 
-.our-team__photo:before{
-	content: '';
-	width: 166px;
-	height: 190px;
-	position: absolute;
-	bottom: 7px;
-	right: -15px;
-	background: url(../images/backgrounds/hexagon_filled_2.svg) no-repeat;
-	background-size: 175px 201px;
+.our-team__photo img {
+    position: relative;
+    z-index: 10;
+    width: 248px;
+    height: 283px;
+    object-fit: cover;
+    clip-path: polygon(50% 0, 100% 22%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    margin: 0 auto;
 }
 
-.arrow-previous, .arrow-next{
-	display: inline-block;
-	width: 57px;
-	height: 57px;
-	box-shadow: 0 5px 9px rgba(0, 0, 0, 0.13);
-	background-color: #ff9833;
-	border-radius: 50%;
-	position: relative;
+.our-team__photo:before {
+    content: '';
+    width: 166px;
+    height: 190px;
+    position: absolute;
+    bottom: 7px;
+    right: -15px;
+    background: url(../images/backgrounds/hexagon_filled_2.svg) no-repeat;
+    background-size: 175px 201px;
 }
 
-.arrow-next{
-	margin-left: 40px;
+.arrow-previous,
+.arrow-next {
+    display: inline-block;
+    width: 57px;
+    height: 57px;
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.13);
+    background-color: #ff9833;
+    border-radius: 50%;
+    position: relative;
 }
 
-.arrow-previous:focus, .arrow-next:focus{
-	outline: none;
+.arrow-next {
+    margin-left: 40px;
+}
+
+.arrow-previous:focus,
+.arrow-next:focus {
+    outline: none;
 }
 
 button:focus {
-   outline: none;
+    outline: none;
 }
 
-.arrow-previous:before, .arrow-next:before{
-	content: '';
-	display: block;
-	width: 20px;
-	height: 20px;
-	border-left: 2px solid #fff;
-	border-bottom: 2px solid #fff;
-	position: absolute;
-	top: 18px;
-	left: 18px;
+.arrow-previous:before,
+.arrow-next:before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    position: absolute;
+    top: 18px;
+    left: 18px;
 }
 
-.arrow-previous:before{
-	transform: rotate(45deg);
+.arrow-previous:before {
+    transform: rotate(45deg);
 }
 
-.arrow-next:before{
-	transform: rotate(-135deg);
+.arrow-next:before {
+    transform: rotate(-135deg);
 }
 
-.owl-nav{
-	text-align: center;
+.owl-nav {
+    text-align: center;
 }
-.owl-dots{
-	display: none;
+
+.owl-dots {
+    display: none;
 }
 
 /*-----------dealers----------*/
@@ -508,10 +527,11 @@ button:focus {
 
 .dealers {
     padding-top: 45px;
-	padding-bottom: 48px;
+    padding-bottom: 48px;
     position: relative;
 }
-.dealers:before{
+
+.dealers:before {
     content: '';
     position: absolute;
     left: -100%;
@@ -521,12 +541,13 @@ button:focus {
     top: 0;
 }
 
-.dealers__list{
+.dealers__list {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.dealers__item{
+
+.dealers__item {
     flex-basis: 50%;
     box-sizing: border-box;
     padding-right: 10px;
@@ -544,39 +565,40 @@ button:focus {
 .dealers__item p:last-child {
     margin-bottom: 15px;
 }
+
 /*--------bee-gardens----------*/
 
 
-.bee-garden__item.bee-garden__image img{
-	position: relative;
-	z-index: 10;
-   width: 212px;
-   height: 244px;
-	object-fit: cover;
-	clip-path: polygon(50% 0, 100% 22%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-	margin: 0 auto;
+.bee-garden__item.bee-garden__image img {
+    position: relative;
+    z-index: 10;
+    width: 212px;
+    height: 244px;
+    object-fit: cover;
+    clip-path: polygon(50% 0, 100% 22%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    margin: 0 auto;
 }
 
-.bee-garden__image:after{
-	content: '';
-	width: 166px;
-	height: 190px;
-	position: absolute;
-	bottom: 20px;
-	right: -7px;
-	background: url(../images/backgrounds/hexagon_filled.svg) no-repeat;
-	background-size: 175px 201px;
+.bee-garden__image:after {
+    content: '';
+    width: 166px;
+    height: 190px;
+    position: absolute;
+    bottom: 20px;
+    right: -7px;
+    background: url(../images/backgrounds/hexagon_filled.svg) no-repeat;
+    background-size: 175px 201px;
 }
 
-.bee-garden__image:before{
-	content: '';
-	width: 166px;
-	height: 190px;
-	position: absolute;
-   top: -11px;
-   left: -7px;
-	background: url(../images/backgrounds/hexagon_dark.svg) no-repeat;
-	background-size: 175px 201px;
+.bee-garden__image:before {
+    content: '';
+    width: 166px;
+    height: 190px;
+    position: absolute;
+    top: -11px;
+    left: -7px;
+    background: url(../images/backgrounds/hexagon_dark.svg) no-repeat;
+    background-size: 175px 201px;
 }
 
 
@@ -585,324 +607,244 @@ button:focus {
 
 /*------------contacts-----------------*/
 
-.contacts{
-	padding-top: 90px;
-	padding-bottom: 34px;
-	box-shadow: 0px 6px 8px -1px rgba(0,0,0,0.21);
-	-webkit-box-shadow: 0px 6px 8px -1px rgba(0,0,0,0.21);
-	-moz-box-shadow: 0px 6px 8px -1px rgba(0,0,0,0.21);
-	font-size: 16px;
-	background: url(../images/backgrounds/bcg_bee_gardens.png) no-repeat;
-	background-position-x: calc(100% + 30px);
-	background-position-y: 0;	
-	background-size: 230px auto;
-	position: relative;
-	z-index: 5;
+.contacts {
+    padding-top: 90px;
+    padding-bottom: 34px;
+    box-shadow: 0px 6px 8px -1px rgba(0, 0, 0, 0.21);
+    -webkit-box-shadow: 0px 6px 8px -1px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 0px 6px 8px -1px rgba(0, 0, 0, 0.21);
+    font-size: 16px;
+    background: url(../images/backgrounds/bcg_bee_gardens.png) no-repeat;
+    background-position-x: calc(100% + 30px);
+    background-position-y: 0;
+    background-size: 230px auto;
+    position: relative;
+    z-index: 5;
 }
 
-.contacts p{
-	margin: 0;
+.contacts p {
+    margin: 0;
 }
 
-.contacts__list{
-	margin-left: 15px;
+.contacts__list {
+    margin-left: 15px;
 }
 
-.contacts__list>div{
-	margin-bottom: 20px;
-	font-size: 14px;
+.contacts__list > div {
+    margin-bottom: 20px;
+    font-size: 14px;
 }
 
-.contacts-phone>span{
-	font-size: 22px;
-	color: #403933;
+.contacts-phone >p> span {
+    font-size: 22px;
+    color: #403933;
 }
 
-.contacts-phone{
-	padding-left: 40px;
+.contacts-phone {
+    padding-left: 40px;
 }
 
-.contacts-email{
-	padding-left: 47px;
+.contacts-email {
+    padding-left: 47px;
 }
 
-.contacts-location{
-	padding-left: 33px;
+.contacts-location {
+    padding-left: 33px;
 }
 
-.contacts-email:before{
-	width: 34px; height: 26px;
-	background-position: -165px -82px;
-	top: 0;
-	left: 2px;
-} 
-
-.contacts-phone:before{
-	width: 32px; height: 32px;
-	background-position: -165px -46px;
-	top: 0;
-	left: 2px;
-} 
-
-.contacts-location:before{
-	width: 24px; height: 32px;
-	background-position: -2px -123px;
-	top: 0;
-	left: 2px;
-} 
-
-.socials{
-	justify-content: flex-start;
+.contacts-email:before {
+    width: 34px;
+    height: 26px;
+    background-position: -165px -82px;
+    top: 0;
+    left: 2px;
 }
 
-.socials>li{
-	margin-left: 13px;
+.contacts-phone:before {
+    width: 32px;
+    height: 32px;
+    background-position: -165px -46px;
+    top: 0;
+    left: 2px;
 }
 
-.socials>li:first-child{
-	margin-left: 0;
+.contacts-location:before {
+    width: 24px;
+    height: 32px;
+    background-position: -2px -123px;
+    top: 0;
+    left: 2px;
 }
 
-.socials>li>a{
-	display: block;
-	position: static;
-	width: 48px; height: 48px;
-	background-position: -2px -71px;
+.socials {
+    justify-content: flex-start;
 }
 
-.socials>li+li>a{
-	width: 51px; height: 51px;
-	background-position: -55px -2px;
+.socials > li {
+    margin-left: 13px;
 }
 
-.socials>li+li+li>a{
-	width: 51px; height: 51px;
-	background-position: -110px -2px;
+.socials > li:first-child {
+    margin-left: 0;
 }
 
-#map{
-   height: 300px;
-   width: 100%;
+.socials > li > a {
+    display: block;
+    position: static;
+    width: 48px;
+    height: 48px;
+    background-position: -2px -71px;
+}
+
+.socials > li + li > a {
+    width: 51px;
+    height: 51px;
+    background-position: -55px -2px;
+}
+
+.socials > li + li + li > a {
+    width: 51px;
+    height: 51px;
+    background-position: -110px -2px;
+}
+
+#map {
+    height: 300px;
+    width: 100%;
 }
 
 /*--------request-call--------------*/
 
 
-.request-call{
-	padding-top: 45px;
-	padding-bottom: 50px;
-	background: url(../images/backgrounds/bcg_request_call.png)  0 100% no-repeat;
-	background-color: #9b6f4a;
+.request-call {
+    padding-top: 45px;
+    padding-bottom: 50px;
+    background: url(../images/backgrounds/bcg_request_call.png) 0 100% no-repeat;
+    background-color: #9b6f4a;
 }
 
-.request-call>.container>p{
-	color: #fff;
-	margin-bottom: 0;
+.request-call > .container > p {
+    color: #fff;
+    margin-bottom: 0;
 }
 
-.request-call h3{
-	color: #fff;
+.request-call h3 {
+    color: #fff;
 }
 
-.request-call__form{
-	padding-top: 30px;
+.request-call__form {
+    padding-top: 30px;
 }
 
-.request-call__input, .request-call__btn{
-	border-radius: 31px;
-	height: 50px;
-	font-size: 14px;
+.request-call__input,
+.request-call__btn {
+    border-radius: 31px;
+    height: 50px;
+    font-size: 14px;
 }
 
-.request-call__input{
-	color: #9c7763;
-	padding-left: 38px;
-	margin-bottom: 10px;
+.request-call__input {
+    color: #9c7763;
+    padding-left: 38px;
+    margin-bottom: 10px;
 }
 
-input[type="text"]::-moz-placeholder {color: #9c7763;}
-input[type="text"]::-webkit-input-placeholder { color: #9c7763; }
-input[type="text"]:-ms-input-placeholder { color: #9c7763; }
-input[type="text"]::-ms-input-placeholder { color: #9c7763; }
-input[type="text"]::placeholder { color: #9c7763; } 
+input[type="text"]::-moz-placeholder {
+    color: #9c7763;
+}
 
-.request-call__input:focus{
+input[type="text"]::-webkit-input-placeholder {
+    color: #9c7763;
+}
+
+input[type="text"]:-ms-input-placeholder {
+    color: #9c7763;
+}
+
+input[type="text"]::-ms-input-placeholder {
+    color: #9c7763;
+}
+
+input[type="text"]::placeholder {
+    color: #9c7763;
+}
+
+.request-call__input:focus {
     color: #9c7763;
     border-color: #9c7763;
     outline: 0;
     box-shadow: none;
 }
 
-.request-call__btn{
-	width: 100%;
-	background: transparent;
-	border: 2px solid #ffe7bc;
-	color: #fff;
-	transition: all .3s ease;
+.request-call__btn {
+    width: 100%;
+    background: transparent;
+    border: 2px solid #ffe7bc;
+    color: #fff;
+    transition: all .3s ease;
 }
 
 .request-call__btn:hover {
-   color: #fff;
-   background-color: transparent;
-   border-color: #ffe7bc;
-   transform: scale(1.05);
+    color: #fff;
+    background-color: transparent;
+    border-color: #ffe7bc;
+    transform: scale(1.05);
 }
 
 /*---------------footer------------*/
 
-footer{
-	padding-top: 26px;
-	padding-bottom: 22px;
+footer {
+    padding-top: 26px;
+    padding-bottom: 22px;
 }
 
-.footer__title{
-	justify-content: center;
-	margin-bottom: 20px;
+.footer__title {
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
-footer .phone{
-	margin-left: 0;
+.footer-contacts {
+    margin: 0 auto;
 }
 
-.footer-contacts{
-	margin: 0 auto;
+.footer-socials {
+    align-self: center;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
-.footer-socials{
-	justify-content: center;
-	margin-bottom: 20px;
+.footer-socials > li {
+    margin-left: 9px;
 }
 
-.footer-socials>li{
-	margin-left: 9px;
+.footer-socials > li:first-child {
+    margin-left: 0;
 }
 
-.footer-socials>li:first-child{
-	margin-left: 0;
+.footer-socials > li > a {
+    display: block;
+    position: static;
+    background-position: -98px -71px;
+    width: 40px;
+    height: 40px;
 }
 
-.footer-socials>li>a{
-	display: block;
-	position: static;
-	background-position: -98px -71px;
-	width: 40px; height: 40px;
+.footer-socials > li + li > a {
+    background-position: -54px -71px;
 }
 
-.footer-socials>li+li>a{
-	background-position: -54px -71px;
+.footer-socials > li + li + li > a {
+    background-position: -165px -2px;
 }
 
-.footer-socials>li+li+li>a{
-	background-position: -165px -2px;
+footer .btn_call_request {
+    padding: 0 30px;
 }
 
-footer .btn_call_request{
-	padding: 0 30px;
-}
-
-.copyright{
-	font-size: 12px;
-	padding-top: 23px;
-	text-align: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 576px){
-	.main-title{
-		font-size: 26px;
-	}
-
-	h2{
-		font-size: 14px;
-	}
-
-	.header-contacts{
-		font-size: 14px;
-	}
-
-	.email, .phone{
-		padding-left: 25px;
-		margin-bottom: 5px;
-	}
-
-	.email:before{
-		width: 19px; height: 15px;
-		background-position: -142px -94px;
-		top: 5px;
-		left: 0;
-	}
-
-	.phone:before{
-		width: 19px; height: 19px;
-		background-position: -142px -71px;
-		top: 5px;
-		left: 0;
-	}
-
-
-	.about-us{
-	   background-image: url(../images/backgrounds/about-us_mobile.png);
-	   background-size: 380px auto;
-	   background-repeat: no-repeat;
-	   background-position-x: calc(100% + 128px);
-	   background-position-y: 100%;
-	}
-
-	.about-us__description{
-		padding-right: 45px;
-	}
-
-	.breed-year__body{
-		padding: 20px;
-	}
-
-
-	.contacts__list{
-		margin-left: 0;
-	}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 768px){
-
-	.breed__decoration img{
-		width: 210px;
-		height: 242px;
-	}
-
-
+.copyright {
+    font-size: 12px;
+    padding-top: 23px;
+    text-align: center;
 }
 
 
@@ -922,175 +864,267 @@ footer .btn_call_request{
 
 
 
-@media (min-width: 992px){
 
-	.main-title{
-		font-size: 33px;
-		margin-bottom: 8px;
-	}
 
-	h2{
-		font-size: 16px;
-	}
 
-	h3{
-		text-transform: uppercase;
-		font-size: 36px;
-		padding-bottom: 25px;
-	}
-
-	h4{
-		font-size: 16px;
-		border-left: 5px solid #fb7517;
-	}
-
-	p{
-		font-size: 14px;
-	}
-
-	header{
-		background-image: url(../images/backgrounds/about-us.jpg);
-		background-size: 655px auto;
-		background-repeat: no-repeat;
-		background-position-x: calc(100% + 200px);
-		background-position-y: -80px;		
-		padding-bottom: 377px;
-	}	
-    .menu__collapse{
-        justify-content: flex-end;
+@media (min-width: 576px) {
+    .main-title {
+        font-size: 26px;
     }
 
-    .lang__btn {
-    margin-left: 20px;
+    h2 {
+        font-size: 14px;
+    }
+
+    .email,
+    .phone {
+        padding-left: 25px;
+        margin-bottom: 5px;
+    }
+
+    .email:before {
+        width: 19px;
+        height: 15px;
+        background-position: -142px -94px;
+        top: 5px;
+        left: 0;
+    }
+
+    .phone:before {
+        width: 19px;
+        height: 19px;
+        background-position: -142px -71px;
+        top: 5px;
+        left: 0;
+    }
+
+
+    .about-us {
+        background-image: url(../images/backgrounds/about-us_mobile.png);
+        background-size: 380px auto;
+        background-repeat: no-repeat;
+        background-position-x: calc(100% + 128px);
+        background-position-y: 100%;
+    }
+
+    .about-us__description {
+        padding-right: 45px;
+    }
+
+    .breed-year__body {
+        padding: 20px;
+    }
+
+
+    .contacts__list {
+        margin-left: 0;
+    }
 }
-.lang__btn a{
-    width: 50px;
-    height: 50px;
-    font-size: 14px;
-    padding-top: 12px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+
+    .breed__decoration img {
+        width: 210px;
+        height: 242px;
+    }
+    .footer-contacts {
+    margin: 0;
 }
 
-	.about-us{
-	   margin-top: -367px;
-	   background: none;
-	}
+
+}
 
 
-	.title {
-    margin-left: 16px;
-	}
 
-		.logo img{
-		width: 310px;
-		height: auto;
-	}
 
-	.header-contacts{
-		font-size: 16px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px) {
+
+    .main-title {
+        font-size: 33px;
+        margin-bottom: 8px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    h3 {
+        text-transform: uppercase;
+        font-size: 36px;
+        padding-bottom: 25px;
+    }
+
+    h4 {
+        font-size: 16px;
+        border-left: 5px solid #fb7517;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    header {
+        background-image: url(../images/backgrounds/about-us.jpg);
+        background-size: 655px auto;
+        background-repeat: no-repeat;
+        background-position-x: calc(100% + 200px);
+        background-position-y: -80px;
+        padding-bottom: 377px;
+    }
+
+    .menu__collapse {
+        justify-content: flex-end;
+    }
+    .lang__btn-group{
+        margin-left: 30px;
+    }
+
+    .about-us {
+        margin-top: -367px;
+        background: none;
+    }
+
+    .title {
+        margin-left: 16px;
+    }
+
+    .logo img {
+        width: 310px;
+        height: auto;
+    }
+
+    .header-contacts {
         align-self: center;
-	}
+    }
+
+    .about-us__content {
+        padding-top: 32px;
+        padding-bottom: 79px;
+    }
 
 
+    .header__decoration {
+        display: inline-block;
+        width: 14px;
+        height: 7px;
+        position: relative;
+        top: 15px;
+        background-color: #ffe7bc;
+        margin-right: 4px;
+    }
 
-/*	.logo img{
-		width: 48px;
-		height: 48px;
-	}*/
+    .header__decoration:before,
+    .header__decoration:after {
+        content: '';
+        border-right: 7px solid transparent;
+        border-left: 7px solid transparent;
+        position: absolute;
+        left: 0;
+    }
 
-	.about-us__content{
-		padding-top: 32px;
-		padding-bottom: 79px;
-	}
+    .header__decoration:before {
+        border-bottom: 5px solid #ffe7bc;
+        top: -5px;
+    }
 
+    .header__decoration:after {
+        border-top: 5px solid #ffe7bc;
+        bottom: -5px;
+    }
 
-	.header__decoration{
-		display: inline-block;
-		width: 14px;
-		height: 7px;
-		position: relative;
-		top: 15px;
-		background-color: #ffe7bc;
-		margin-right: 4px;
-	}
+    .products {
+        margin-top: -150px;
+        padding-top: 196px;
+        padding-bottom: 77px;
+        background: url(../images/backgrounds/bcg_products.png) -111px 0 no-repeat;
+        background-size: 300px auto;
+    }
+    .breed {
+    background: linear-gradient(#fff5e3 89%, #fff 89%);
+}
 
-	.header__decoration:before, .header__decoration:after{
-		content: '';
-		border-right: 7px solid transparent;
-		border-left: 7px solid transparent;	
-		position: absolute;
-		left: 0;
-	}
+    .breed .header__decoration:before,
+    .our-bee-gardens .header__decoration:before {
+        border-bottom: 5px solid #fd7617;
+    }
 
-	.header__decoration:before{
-		border-bottom: 5px solid #ffe7bc;
-		top: -5px;
-	}
+    .breed .header__decoration:after,
+    .our-bee-gardens .header__decoration:after {
+        border-top: 5px solid #fd7617;
+    }
 
-	.header__decoration:after{
-		border-top: 5px solid #ffe7bc;
-		bottom: -5px;
-	}
+    .breed__decoration img {
+        width: 262px;
+        height: 302px;
+    }
 
-	.products {
-    margin-top: -150px;
-    padding-top: 196px;
-    padding-bottom: 77px;
-    background: url(../images/backgrounds/bcg_products.png) -111px 0 no-repeat;
-    background-size: 300px auto;
- 	}
+    .breed__decoration:before,
+    .breed__decoration:after {
+        content: '';
+        width: 262px;
+        height: 302px;
+        background-size: 262px 302px;
+    }
 
-	.breed .header__decoration:before,
-	.our-bee-gardens .header__decoration:before{
-		border-bottom: 5px solid #fd7617;
-	}
+    .breed__decoration:before {
+        top: -22px;
+        left: -41px;
+    }
 
-	.breed .header__decoration:after,
-	.our-bee-gardens .header__decoration:after{
-		border-top: 5px solid #fd7617;
-	}
+    .breed__decoration:after {
+        bottom: -20px;
+        right: -25px;
+    }
 
-	.breed__decoration img{
-		width: 262px;
-		height: 302px;
-	}
-
-	.breed__decoration:before, .breed__decoration:after{
-		content: '';
-		width: 262px;
-		height: 302px;
-		background-size: 262px 302px;
-	}
-
-	.breed__decoration:before{
-		top: -22px;
-		left: -41px;
-	}
-
-	.breed__decoration:after{
-		bottom: -20px;
-		right: -25px;
-	}
-    .dealers__item{
+    .dealers__item {
         flex-basis: 25%;
     }
 
-	.footer__title{
-		justify-content: flex-start;
-		margin-bottom: 0;
-	}
+    .footer__title {
+        justify-content: flex-start;
+        margin-bottom: 0;
+    }
 
-	.footer-contacts{
-		margin: 0;
-	}
+    .footer-contacts {
+        margin: 0;
+    }
 
-	.socials{
-		justify-content: flex-end;
-	}
+    .socials {
+        justify-content: flex-end;
+    }
 
-	.copyright{
-		font-size: 15px;
-		text-align: left;
-	}
+    .copyright {
+        font-size: 15px;
+        text-align: left;
+    }
 }
 
 
@@ -1108,66 +1142,71 @@ footer .btn_call_request{
 
 
 
-@media (min-width: 1440px){
+@media (min-width: 1440px) {
 
-	header{
-		background-image: url(../images/backgrounds/about-us.jpg);
-		background-size: 855px auto;
-		background-repeat: no-repeat;
-		background-position-x: calc(100% + 200px);
-		background-position-y: -110px;		
-		padding-bottom: 377px;
-	}	
-        .lang__btn-group{
+    header {
+        background-image: url(../images/backgrounds/about-us.jpg);
+        background-size: 855px auto;
+        background-repeat: no-repeat;
+        background-position-x: calc(100% + 200px);
+        background-position-y: -110px;
+        padding-bottom: 377px;
+    }
+
+    .lang__btn-group {
         margin-left: 30px;
     }
-    .header-contacts{
+
+    .header-contacts {
         display: flex;
     }
-    	.phone{
-		margin-left: 15px;
-	}
 
-	.about-us {
-	   margin-top: -367px;
-	}
+    .phone {
+        margin-left: 15px;
+    }
 
-	.products{
-		background: url(../images/backgrounds/bcg_products.png) -200px 0 no-repeat;
-	}
+    .about-us {
+        margin-top: -367px;
+    }
 
-	.breed__decoration img{
-		width: 350px;
-		height: 403px;
-	}
+    .products {
+        background: url(../images/backgrounds/bcg_products.png) -200px 0 no-repeat;
+    }
 
-.breed__decoration:before, .breed__decoration:after{
-		content: '';
-		width: 262px;
-		height: 302px;
-		background-size: 262px 302px;
-	}
+    .breed__decoration img {
+        width: 350px;
+        height: 403px;
+    }
 
-	.breed__decoration:before{
-		top: -15px;
-		left: -40px;
-	}
+    .breed__decoration:before,
+    .breed__decoration:after {
+        content: '';
+        width: 262px;
+        height: 302px;
+        background-size: 262px 302px;
+    }
 
-	.breed__decoration:after{
-		bottom: -20px;
-		right: -25px;
-	}
+    .breed__decoration:before {
+        top: -15px;
+        left: -40px;
+    }
 
-	.contacts{
-	   background-position-x: calc(100% + 68px);
-	   background-position-y: 0;
-	   background-size: 330px auto;
-	}
+    .breed__decoration:after {
+        bottom: -20px;
+        right: -25px;
+    }
 
-	.request-call__input, .request-call__btn{
-		height: 64px;
-		font-size: 18px;
-	}
+    .contacts {
+        background-position-x: calc(100% + 68px);
+        background-position-y: 0;
+        background-size: 330px auto;
+    }
+
+    .request-call__input,
+    .request-call__btn {
+        height: 64px;
+        font-size: 18px;
+    }
 }
 
 
@@ -1182,55 +1221,53 @@ footer .btn_call_request{
 
 
 
-@media (min-width: 1840px){
+@media (min-width: 1840px) {
 
-	header {
-	   background-size: auto;
-	   background-position-x: calc(100% + 285px);
-	   background-position-y: -146px;
-	   padding-bottom: 543px;
-	}
+    header {
+        background-size: auto;
+        background-position-x: calc(100% + 285px);
+        background-position-y: -146px;
+        padding-bottom: 543px;
+    }
 
-	.about-us {
-	   margin-top: -525px;
-	}
+    .about-us {
+        margin-top: -525px;
+    }
 
-	.breed__decoration img{
-		width: 525px;
-		height: 605px;
-	}
+    .breed__decoration img {
+        width: 525px;
+        height: 605px;
+    }
 
-	.breed__decoration:before, .breed__decoration:after{
-		content: '';
-		width: 525px;
-		height: 605px;
-		background-size: 525px 605px;
-	}
+    .breed__decoration:before,
+    .breed__decoration:after {
+        content: '';
+        width: 525px;
+        height: 605px;
+        background-size: 525px 605px;
+    }
 
-	.breed__decoration:before{
-	   top: -53px;
-   	left: -85px;
-	}
+    .breed__decoration:before {
+        top: -53px;
+        left: -85px;
+    }
 
-	.breed__decoration:after{
-		bottom: -55px;
-   	right: -62px;
-	}
+    .breed__decoration:after {
+        bottom: -55px;
+        right: -62px;
+    }
 
 
-	.our-bee-gardens{
-		margin-bottom: -190px;
-	}
+    .our-bee-gardens {
+        margin-bottom: -190px;
+    }
 
-	.contacts{
-		padding-top: 220px;
-		background-position-x: calc(100% + 40px);
-		background-position-y: 0;	
-		background-size: auto;
-	}
+    .contacts {
+        padding-top: 220px;
+        background-position-x: calc(100% + 40px);
+        background-position-y: 0;
+        background-size: auto;
+    }
 
 
 }
-
-
-

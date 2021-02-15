@@ -1,538 +1,542 @@
 <!DOCTYPE html>
 <html lang="ua">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Пчеловодство</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пчеловодство</title>
 
-	<link rel="stylesheet" href="owl_carousel/owl.carousel.min.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="owl_carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	
-	<script src="owl_carousel/owl.carousel.min.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkq3PHHmhJCfpEFShuePmf-WppbcvzNUs&callback=initMap" defer></script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="owl_carousel/owl.carousel.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkq3PHHmhJCfpEFShuePmf-WppbcvzNUs&callback=initMap" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
 </head>
+
 <body>
-	<header>
-		<div class="container">
-		    <nav class="navbar menu__body navbar-expand-lg navbar-light">
-              <div class="logo"><img src="images/logo.jpg" alt="українська матковівидна компанія"></div>
-              <button class="navbar-toggler menu__toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse menu__collapse" id="navbarNav">
-                <ul class="navbar-nav menu__list">
-                  <li class="nav-item menu__item header-contacts">
-                    <div class="email">bee_pasic@gmail.ru</div>
-					<div class="phone">+38 (00) 00-00-00</div>
-                  </li>
-                  <li class="nav-item menu__item">
-                    <ul class="lang__btn-group d-flex">
-                        <li class="lang__btn active"><a href="#">Укр</a></li>
-                        <li class="lang__btn"><a href="#">Рус</a></li>
-                        <li class="lang__btn"><a href="#">Eng</a></li>
+    <header>
+        <div class="container">
+            <nav class="navbar menu__body navbar-expand-lg navbar-light">
+                <div class="logo"><img src="images/logo.jpg" alt="українська матковівидна компанія"></div>
+                <button class="navbar-toggler menu__toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse menu__collapse" id="navbarNav">
+                    <ul class="navbar-nav menu__list">
+                        <li class="nav-item menu__item header-contacts">
+                            <div class="email">apis.ukr@gmail.com</div>
+                            <div class="phone">
+                                <p>+38 (068) 287 73 51</p>
+                                <p>+38 (050) 025 50 75</p>
+                            </div>
+                        </li>
+                        <li class="nav-item menu__item">
+                            <ul class="lang__btn-group d-flex">
+                                <li class="lang__btn active"><a href="#">Укр</a></li>
+                                <li class="lang__btn"><a href="#">Рус</a></li>
+                                <li class="lang__btn"><a href="#">Eng</a></li>
+                            </ul>
+                        </li>
                     </ul>
-                  </li>
-                </ul>
-              </div>
+                </div>
             </nav>
-		</div>
-	</header>
-	<main>
-		<section class="about-us">
-			<div class="container">
-				<div class="col-sm-9 col-lg-7 about-us__content">
-					<div class="section-header row">
-						<h3>Про нас</h3>
-						<span class="header__decoration"></span>
-						<span class="header__decoration"></span>
-						<span class="header__decoration"></span>
-					</div>
-					<div class="about-us__description">
-					<p>Пропонуємо бджоломаток Бакфаст власної селекції та від кращих європейських заводчиків. Реалізуються неплідні, плідні бджоломатки контрольованого і неконтрольованого обльоту, а також штучного осіменіння, перевірені на розплід.</p>
-					<p>Весь матеріал, що Ви можете побачити на сайті було ретельно протестовано. Ми з упевненістю можемо сказати, що це працює і дозволяє  отримати найвищі результати від вашої  праці. </p>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="products">
-			<div class="container">
-				<div class="section-header row">
-					<h3>Продукція</h3>
-					<span class="header__decoration"></span>
-					<span class="header__decoration"></span>
-					<span class="header__decoration"></span>
-				</div>
-				<ul class="products-list row">
-					<li class="col-md-6 col-lg-3 product__item">
-						<div class="product__image">
-							<img src="images/product/bcg_pr_1.png" alt="пчеломатки неплодные">
-						</div>
-						<h4>Неплідні бджоломатки</h4>
-						<p>100 грн</p>
-					</li>
-					<li class="col-md-6 col-lg-3 product__item">
-						<div class="product__image">
-							<img src="images/product/bcg_pr_2.png" alt="плодные пчеломатки неконтролированного облёта">
-						</div>						
-						<h4>Плідні бджоло матки неконтрольованого обльоту</h4>
-						<p>280 грн</p>
-					</li>
-					<li class="col-md-6 col-lg-3 product__item">
-						<div class="product__image">
-							<img src="images/product/bcg_pr_3.png" alt="плодные пчеломатки неконтролированного облёта">
-						</div>						
-						<h4>Плідні бджоло матки контрольованого обльоту</h4>
-						<p>420 грн</p>
-					</li>
-					<li class="col-md-6 col-lg-3 product__item">
-						<div class="product__image">
-							<img src="images/product/bcg_pr_4.png" alt="пчеломатки искуственного осеменения">
-						</div>
-						<h4>Бджоломатки штучного запліднення</h4>
-						<p>1100 грн</p>
-					</li>
-				</ul>
-			</div>
-		</section>
-		<section class="breed">
-			<div class="container clearfix">
-				<div class="section-header row">
-					<h3>Родоводы</h3>
-					<span class="header__decoration"></span>
-					<span class="header__decoration"></span>
-					<span class="header__decoration"></span>
-				</div>
-			<div class="row">
-				<div class="accordion breed-year__accordion col-12 col-sm-9" id="breed__accordion">
-					  <div class="breed-year__card card">
-					    <div class="card-header" id="headingOne">
-					      <h2 class="mb-0">
-					        <button class="breed-year__btn btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#breed-year__2017" aria-expanded="false" aria-controls="breed-year__2017">
-					          2017
-					        </button>
-					      </h2>
-					    </div>
-					    <div id="breed-year__2017" class="collapse" aria-labelledby="headingOne" data-parent="#breed__accordion">
-					      <div class="breed-year__body card-body">
-					        <table class="table table-hover">
-								  <thead>
-								    <tr>
-								      <th scope="col">Порода</th>
-								      <th scope="col">Линия</th>
-								      <th scope="col">Тип оплодотворения</th>
-								    </tr>
-								  </thead>
-								  <tbody>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B19(GBI)-2017">
-								      <th scope="row">Buckfast</th>
-								      <td>B19(GBI)</td>
-								      <td>Инструментальное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B20(GBI)-2017">
-								      <th scope="row">Buckfast</th>
-								      <td>B20 (GBI)</td>
-								      <td>Натуральное изолированное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B29(GBI)-2017">
-								      <th scope="row">Buckfast</th>
-								      <td>B29 (GBI)</td>
-								      <td>Натуральное изолированное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B45(GBI)-2017">
-								      <th scope="row">Buckfast</th>
-								      <td>B45 (GBI)</td>
-								      <td>Инструментальное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B55(GBI)-2017">
-								      <th scope="row">Buckfast</th>
-								      <td>B55 (GBI)</td>
-								      <td>Инструментальное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B7(GBI)-2017">
-								      <th scope="row">Buckfast</th>
-								      <td>B7 (GBI)</td>
-								      <td>Инструментальное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B77(GBI)-2017">
-								      <th scope="row">Buckfast</th>
-								      <td>B77 (GBI)</td>
-								      <td>Инструментальное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B82(GBI)-2017">
-								      <th scope="row">Buckfast</th>
-								      <td>B82 (GBI)</td>
-								      <td>Инструментальное</td>
-								    </tr>
-								  </tbody>
-								</table>
-					      </div>
-					    </div>
-					  </div>
-					  <div class="card breed-year__card">
-					    <div class="card-header" id="headingTwo">
-					      <h2 class="mb-0">
-					        <button class="breed-year__btn btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#breed-year__2018" aria-expanded="false" aria-controls="breed-year__2018">
-					          2018
-					        </button>
-					      </h2>
-					    </div>
-					    <div id="breed-year__2018" class="collapse" aria-labelledby="headingTwo" data-parent="#breed__accordion">
-							<div class="breed-year__body card-body">
-					        <table class="table table-hover">
-								  <thead>
-								    <tr>
-								      <th scope="col">Порода</th>
-								      <th scope="col">Линия</th>
-								      <th scope="col">Тип оплодотворения</th>
-								    </tr>
-								  </thead>
-								  <tbody>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B%2043(GBI)-2018">
-								      <th scope="row">Buckfast</th>
-								      <td>B43 (GBI)</td>
-								      <td>Натуральное изолированное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B10(GBI)-2018">
-								      <th scope="row">Buckfast</th>
-								      <td>B10 (GBI)</td>
-								      <td>Натуральное частично изолированное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B11(GBI)-2018">
-								      <th scope="row">Buckfast</th>
-								      <td>B11 (GBI)</td>
-								      <td>Инструментальное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B12(GBI)-2018">
-								      <th scope="row">Buckfast</th>
-								      <td>B12 (GBI)</td>
-								      <td>Натуральное изолированное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B18(PZV)-2018">
-								      <th scope="row">Buckfast</th>
-								      <td>B18 (PZV)</td>
-								      <td>Инструментальное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B25(GBI)-2018">
-								      <th scope="row">Buckfast</th>
-								      <td>B25 (GBI)</td>
-								      <td>Натуральное изолированное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B32(GBI)-2018">
-								      <th scope="row">Buckfast</th>
-								      <td>B32 (GBI)</td>
-								      <td>Инструментальное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B44(GBI)-2018">
-								      <th scope="row">Buckfast</th>
-								      <td>B44 (GBI)</td>
-								      <td>Натуральное изолированное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B65(GBI)-2018">
-								      <th scope="row">Buckfast</th>
-								      <td>B65 (GBI)</td>
-								      <td>Натуральное частично изолированное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B70(GBI)-2018">
-								      <th scope="row">Buckfast</th>
-								      <td>B70 (GBI)</td>
-								      <td>Натуральное частично изолированное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B80(GBI)-2018">
-								      <th scope="row">Buckfast</th>
-								      <td>B80 (GBI)</td>
-								      <td>Натуральное изолированное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B83(PZV)-2018">
-								      <th scope="row">Buckfast</th>
-								      <td>B83 (PZV)</td>
-								      <td>Инструментальное</td>
-								    </tr>
-								  </tbody>
-								</table>
-					      </div>
-					    </div>
-					  </div>
-					  <div class="card breed-year__card">
-					    <div class="card-header" id="headingThree">
-					      <h2 class="mb-0">
-					        <button class="breed-year__btn btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#breed-year__2019" aria-expanded="false" aria-controls="breed-year__2019">
-					          2019
-					        </button>
-					      </h2>
-					    </div>
-					    <div id="breed-year__2019" class="collapse" aria-labelledby="headingThree" data-parent="#breed__accordion">
-					      <div class="breed-year__body card-body">
-					        <table class="table table-hover">
-								  <thead>
-								    <tr>
-								      <th scope="col">Порода</th>
-								      <th scope="col">Линия</th>
-								      <th scope="col">Тип оплодотворения</th>
-								    </tr>
-								  </thead>
-								  <tbody>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B108(GBI)-2019">
-								      <th scope="row">Buckfast</th>
-								      <td>B108 (GBI)</td>
-								      <td>Инструментальное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B21(GBI)-2019">
-								      <th scope="row">Buckfast</th>
-								      <td>B21 (GBI)</td>
-								      <td>Натуральное частично изолированное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B30(GBI)-2019">
-								      <th scope="row">Buckfast</th>
-								      <td>B30 (GBI)</td>
-								      <td>Натуральное частично изолированное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B31(GBI)-2019">
-								      <th scope="row">Buckfast</th>
-								      <td>B31 (GBI)</td>
-								      <td>Натуральное частично изолированное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B41(GBI)-2019">
-								      <th scope="row">Buckfast</th>
-								      <td>B41 GBI)</td>
-								      <td>Натуральное частично изолированное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B801(GBI)-2019">
-								      <th scope="row">Buckfast</th>
-								      <td>B801 (GBI)</td>
-								      <td>Натуральное частично изолированное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B802(GBI)-2019">
-								      <th scope="row">Buckfast</th>
-								      <td>B802 (GBI)</td>
-								      <td>Инструментальное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B17(GBI)-2019">
-								      <th scope="row">Buckfast</th>
-								      <td>B17 (GBI)</td>
-								      <td>Натуральное изолированное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B19(GBI)-2019">
-								      <th scope="row">Buckfast</th>
-								      <td>B19 (GBI)</td>
-								      <td>Инструментальное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B212(GBI)-2019">
-								      <th scope="row">Buckfast</th>
-								      <td>B212 (GBI)</td>
-								      <td>Инструментальное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B66(GBI)-2019">
-								      <th scope="row">Buckfast</th>
-								      <td>B66 (GBI)</td>
-								      <td>Натуральное частично изолированное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B71(GBI)-2019">
-								      <th scope="row">Buckfast</th>
-								      <td>B71 (GBI)</td>
-								      <td>Натуральное изолированное</td>
-								    </tr>
-								 	 <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B79(GBI)-2019">
-								      <th scope="row">Buckfast</th>
-								      <td>B79 (GBI)</td>
-								      <td>Инструментальное</td>
-								    </tr>
-								  </tbody>
-								</table>
-					      </div>
-					    </div>
-					  </div>
-					  <div class="card breed-year__card">
-					    <div class="card-header" id="headingFour">
-					      <h2 class="mb-0">
-					        <button class="breed-year__btn btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#breed-year__2020" aria-expanded="false" aria-controls="breed-year__2019">
-					          2020
-					        </button>
-					      </h2>
-					    </div>
-					    <div id="breed-year__2020" class="collapse" aria-labelledby="headingFour" data-parent="#breed__accordion">
-					      <div class="breed-year__body card-body">
-					        <table class="table table-hover">
-								  <thead>
-								    <tr>
-								      <th scope="col">Порода</th>
-								      <th scope="col">Линия</th>
-								      <th scope="col">Тип оплодотворения</th>
-								    </tr>
-								  </thead>
-								  <tbody>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B118(GBI)-2020">
-								      <th scope="row">Buckfast</th>
-								      <td>B118 (GBI)</td>
-								      <td>Натуральное изолированное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B14(GBI)-2020">
-								      <th scope="row">Buckfast</th>
-								      <td>B14 (GBI)</td>
-								      <td>Инструментальное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B16(GBI)-2020">
-								      <th scope="row">Buckfast</th>
-								      <td>B16 (GBI)</td>
-								      <td>Натуральное частично изолированное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B170(GBI)-2020">
-								      <th scope="row">Buckfast</th>
-								      <td>B170 (GBI)</td>
-								      <td>Натуральное частично изолированное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B171(GBI)-2020">
-								      <th scope="row">Buckfast</th>
-								      <td>B171 (GBI)</td>
-								      <td>Инструментальное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B172(GBI)-2020">
-								      <th scope="row">Buckfast</th>
-								      <td>B172 (GBI)</td>
-								      <td>Инструментальное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B173(GBI)-2020">
-								      <th scope="row">Buckfast</th>
-								      <td>B173 (GBI)</td>
-								      <td>Инструментальное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B174(GBI)-2020">
-								      <th scope="row">Buckfast</th>
-								      <td>B174 (GBI)</td>
-								      <td>Инструментальное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B175(GBI)-2020">
-								      <th scope="row">Buckfast</th>
-								      <td>B175 (GBI)</td>
-								      <td>Натуральное изолированное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B178(GBI)-2020">
-								      <th scope="row">Buckfast</th>
-								      <td>B178 (GBI)</td>
-								      <td>Инструментальное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B179(GBI)-2020">
-								      <th scope="row">Buckfast</th>
-								      <td>B179 (GBI)</td>
-								      <td>Натуральное изолированное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B180(GBI)-2020">
-								      <th scope="row">Buckfast</th>
-								      <td>B180 (GBI)</td>
-								      <td>Натуральное частично изолированное</td>
-								    </tr>
-								 	 <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B220(GBI)-2020">
-								      <th scope="row">Buckfast</th>
-								      <td>B220 (GBI)</td>
-								      <td>Натуральное изолированное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B221(GBI)-2020">
-								      <th scope="row">Buckfast</th>
-								      <td>B221 (GBI)</td>
-								      <td>Натуральное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B34(GBI)-2020">
-								      <th scope="row">Buckfast</th>
-								      <td>B34 (GBI)</td>
-								      <td>Натуральное частично изолированное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B40(GBI)-2020">
-								      <th scope="row">Buckfast</th>
-								      <td>B40 (GBI)</td>
-								      <td>Натуральное частично изолированное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B47(GBI)-2020">
-								      <th scope="row">Buckfast</th>
-								      <td>B47 (GBI)</td>
-								      <td>Натуральное частично изолированное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B69(GBI)-2020">
-								      <th scope="row">Buckfast</th>
-								      <td>B69 (GBI)</td>
-								      <td>Натуральное изолированное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B72(GBI)-2020">
-								      <th scope="row">Buckfast</th>
-								      <td>B72 (GBI)</td>
-								      <td>Натуральное частично изолированное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B73(GBI)-2020">
-								      <th scope="row">Buckfast</th>
-								      <td>B73 (GBI)</td>
-								      <td>Натуральное изолированное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B78(GBI)-2020">
-								      <th scope="row">Buckfast</th>
-								      <td>B78 (GBI)</td>
-								      <td>Натуральное частично изолированное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B84(GBI)-2020">
-								      <th scope="row">Buckfast</th>
-								      <td>B84 (GBI)</td>
-								      <td>Инструментальное</td>
-								    </tr>
-								    <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B85(GBI)-2020">
-								      <th scope="row">Buckfast</th>
-								      <td>B85 (GBI)</td>
-								      <td>Инструментальное</td>
-								    </tr>
-								  </tbody>
-								</table>
-					      </div>
-					    </div>
-					  </div>
-					</div>
-					<div class="d-none d-sm-block col-sm-2 breed__decoration">
-						<img src="images/bcg_breed.jpg" alt="родоводы разведение и продажа пчёл">
-					</div>
-				</div>
-				<a href="http://bj.tochok.info/Breeder/Breeders/GBI" class="btn active col-auto btn breed-year__btn-know-more" role="button" aria-pressed="true">Узнать больше</a>
-			</div>
-		</section>
-		<section class="our-team">
-			<div class="container">
-				<div class="section-header row">
-					<h3>Наша команда</h3>
-					<span class="header__decoration"></span>
-					<span class="header__decoration"></span>
-					<span class="header__decoration"></span>
-				</div>
-				<p>Ми вважаємо, що проведення якісної селекційної роботи неможливе без чіткого розділення праці та хорошої згуртованої команди. Команда - найцінніший капітал.</p>
-				<div class="row">
-					<div class="out-team__content col-lg-10 offset-lg-1">
-						<div class="owl-carousel our-team__carousel">
-						   <div class="item">
-						   	<div class="our-team__photo"><img src="images/photo/gennadiy.jpg" alt=""></div>
-								<h4>Ізмайлов Геннадій Броніславович</h4>
-								<p>Почесний пасічник Украіни, стаж в бджільництві - 35 років</p>
-							</div>
-						   <div class="item">
-						   	<div class="our-team__photo"><img src="images/photo/dmitriy.jpg" alt=""></div>
-								<h4>Олійник Дмитро Юрійович</h4>
-								<p>Кандидат технічних наук, стаж в бджільництві – 12 років</p>
-							</div>
-						   <div class="item">
-						   	<div class="our-team__photo"><img src="images/photo/kirill.jpg" alt=""></div>
-								<h4>Бородін Кирило Ігорович</h4>
-								<p>Лікар ветеринарної медицини, стаж в бджільництві – 12 років</p>
-						   </div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="dealers">
-		    <div class="container">
-		        <div class="section-header row">
-					<h3>Наша дилеры</h3>
-					<span class="header__decoration"></span>
-					<span class="header__decoration"></span>
-					<span class="header__decoration"></span>
-				</div>
+        </div>
+    </header>
+    <main>
+        <section class="about-us">
+            <div class="container">
+                <div class="col-sm-9 col-lg-7 about-us__content">
+                    <div class="section-header row">
+                        <h3>Про нас</h3>
+                        <span class="header__decoration"></span>
+                        <span class="header__decoration"></span>
+                        <span class="header__decoration"></span>
+                    </div>
+                    <div class="about-us__description">
+                        <p>Пропонуємо бджоломаток Бакфаст власної селекції та від кращих європейських заводчиків. Реалізуються неплідні, плідні бджоломатки контрольованого і неконтрольованого обльоту, а також штучного осіменіння, перевірені на розплід.</p>
+                        <p>Весь матеріал, що Ви можете побачити на сайті було ретельно протестовано. Ми з упевненістю можемо сказати, що це працює і дозволяє отримати найвищі результати від вашої праці. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products">
+            <div class="container">
+                <div class="section-header row">
+                    <h3>Продукція</h3>
+                    <span class="header__decoration"></span>
+                    <span class="header__decoration"></span>
+                    <span class="header__decoration"></span>
+                </div>
+                <ul class="products-list row">
+                    <li class="col-md-6 col-lg-3 product__item">
+                        <div class="product__image">
+                            <img src="images/product/bcg_pr_1.png" alt="пчеломатки неплодные">
+                        </div>
+                        <h4>Неплідні бджоломатки</h4>
+                        <p>100 грн</p>
+                    </li>
+                    <li class="col-md-6 col-lg-3 product__item">
+                        <div class="product__image">
+                            <img src="images/product/bcg_pr_2.png" alt="плодные пчеломатки неконтролированного облёта">
+                        </div>
+                        <h4>Плідні бджоло матки неконтрольованого обльоту</h4>
+                        <p>280 грн</p>
+                    </li>
+                    <li class="col-md-6 col-lg-3 product__item">
+                        <div class="product__image">
+                            <img src="images/product/bcg_pr_3.png" alt="плодные пчеломатки неконтролированного облёта">
+                        </div>
+                        <h4>Плідні бджоло матки контрольованого обльоту</h4>
+                        <p>420 грн</p>
+                    </li>
+                    <li class="col-md-6 col-lg-3 product__item">
+                        <div class="product__image">
+                            <img src="images/product/bcg_pr_4.png" alt="пчеломатки искуственного осеменения">
+                        </div>
+                        <h4>Бджоломатки штучного запліднення</h4>
+                        <p>1100 грн</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="breed">
+            <div class="container clearfix">
+                <div class="section-header row">
+                    <h3>Родоводы</h3>
+                    <span class="header__decoration"></span>
+                    <span class="header__decoration"></span>
+                    <span class="header__decoration"></span>
+                </div>
+                <div class="row">
+                    <div class="accordion breed-year__accordion col-12 col-sm-9" id="breed__accordion">
+                        <div class="breed-year__card card">
+                            <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button class="breed-year__btn btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#breed-year__2017" aria-expanded="false" aria-controls="breed-year__2017">
+                                        2017
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="breed-year__2017" class="collapse" aria-labelledby="headingOne" data-parent="#breed__accordion">
+                                <div class="breed-year__body card-body">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Порода</th>
+                                                <th scope="col">Линия</th>
+                                                <th scope="col">Тип оплодотворения</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B19(GBI)-2017">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B19(GBI)</td>
+                                                <td>Инструментальное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B20(GBI)-2017">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B20 (GBI)</td>
+                                                <td>Натуральное изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B29(GBI)-2017">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B29 (GBI)</td>
+                                                <td>Натуральное изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B45(GBI)-2017">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B45 (GBI)</td>
+                                                <td>Инструментальное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B55(GBI)-2017">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B55 (GBI)</td>
+                                                <td>Инструментальное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B7(GBI)-2017">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B7 (GBI)</td>
+                                                <td>Инструментальное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B77(GBI)-2017">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B77 (GBI)</td>
+                                                <td>Инструментальное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B82(GBI)-2017">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B82 (GBI)</td>
+                                                <td>Инструментальное</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card breed-year__card">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button class="breed-year__btn btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#breed-year__2018" aria-expanded="false" aria-controls="breed-year__2018">
+                                        2018
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="breed-year__2018" class="collapse" aria-labelledby="headingTwo" data-parent="#breed__accordion">
+                                <div class="breed-year__body card-body">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Порода</th>
+                                                <th scope="col">Линия</th>
+                                                <th scope="col">Тип оплодотворения</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B%2043(GBI)-2018">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B43 (GBI)</td>
+                                                <td>Натуральное изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B10(GBI)-2018">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B10 (GBI)</td>
+                                                <td>Натуральное частично изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B11(GBI)-2018">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B11 (GBI)</td>
+                                                <td>Инструментальное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B12(GBI)-2018">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B12 (GBI)</td>
+                                                <td>Натуральное изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B18(PZV)-2018">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B18 (PZV)</td>
+                                                <td>Инструментальное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B25(GBI)-2018">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B25 (GBI)</td>
+                                                <td>Натуральное изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B32(GBI)-2018">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B32 (GBI)</td>
+                                                <td>Инструментальное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B44(GBI)-2018">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B44 (GBI)</td>
+                                                <td>Натуральное изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B65(GBI)-2018">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B65 (GBI)</td>
+                                                <td>Натуральное частично изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B70(GBI)-2018">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B70 (GBI)</td>
+                                                <td>Натуральное частично изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B80(GBI)-2018">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B80 (GBI)</td>
+                                                <td>Натуральное изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B83(PZV)-2018">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B83 (PZV)</td>
+                                                <td>Инструментальное</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card breed-year__card">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button class="breed-year__btn btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#breed-year__2019" aria-expanded="false" aria-controls="breed-year__2019">
+                                        2019
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="breed-year__2019" class="collapse" aria-labelledby="headingThree" data-parent="#breed__accordion">
+                                <div class="breed-year__body card-body">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Порода</th>
+                                                <th scope="col">Линия</th>
+                                                <th scope="col">Тип оплодотворения</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B108(GBI)-2019">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B108 (GBI)</td>
+                                                <td>Инструментальное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B21(GBI)-2019">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B21 (GBI)</td>
+                                                <td>Натуральное частично изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B30(GBI)-2019">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B30 (GBI)</td>
+                                                <td>Натуральное частично изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B31(GBI)-2019">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B31 (GBI)</td>
+                                                <td>Натуральное частично изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B41(GBI)-2019">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B41 GBI)</td>
+                                                <td>Натуральное частично изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B801(GBI)-2019">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B801 (GBI)</td>
+                                                <td>Натуральное частично изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B802(GBI)-2019">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B802 (GBI)</td>
+                                                <td>Инструментальное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B17(GBI)-2019">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B17 (GBI)</td>
+                                                <td>Натуральное изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B19(GBI)-2019">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B19 (GBI)</td>
+                                                <td>Инструментальное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B212(GBI)-2019">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B212 (GBI)</td>
+                                                <td>Инструментальное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B66(GBI)-2019">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B66 (GBI)</td>
+                                                <td>Натуральное частично изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B71(GBI)-2019">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B71 (GBI)</td>
+                                                <td>Натуральное изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B79(GBI)-2019">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B79 (GBI)</td>
+                                                <td>Инструментальное</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card breed-year__card">
+                            <div class="card-header" id="headingFour">
+                                <h2 class="mb-0">
+                                    <button class="breed-year__btn btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#breed-year__2020" aria-expanded="false" aria-controls="breed-year__2019">
+                                        2020
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="breed-year__2020" class="collapse" aria-labelledby="headingFour" data-parent="#breed__accordion">
+                                <div class="breed-year__body card-body">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Порода</th>
+                                                <th scope="col">Линия</th>
+                                                <th scope="col">Тип оплодотворения</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B118(GBI)-2020">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B118 (GBI)</td>
+                                                <td>Натуральное изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B14(GBI)-2020">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B14 (GBI)</td>
+                                                <td>Инструментальное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B16(GBI)-2020">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B16 (GBI)</td>
+                                                <td>Натуральное частично изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B170(GBI)-2020">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B170 (GBI)</td>
+                                                <td>Натуральное частично изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B171(GBI)-2020">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B171 (GBI)</td>
+                                                <td>Инструментальное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B172(GBI)-2020">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B172 (GBI)</td>
+                                                <td>Инструментальное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B173(GBI)-2020">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B173 (GBI)</td>
+                                                <td>Инструментальное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B174(GBI)-2020">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B174 (GBI)</td>
+                                                <td>Инструментальное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B175(GBI)-2020">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B175 (GBI)</td>
+                                                <td>Натуральное изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B178(GBI)-2020">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B178 (GBI)</td>
+                                                <td>Инструментальное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B179(GBI)-2020">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B179 (GBI)</td>
+                                                <td>Натуральное изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B180(GBI)-2020">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B180 (GBI)</td>
+                                                <td>Натуральное частично изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B220(GBI)-2020">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B220 (GBI)</td>
+                                                <td>Натуральное изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B221(GBI)-2020">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B221 (GBI)</td>
+                                                <td>Натуральное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B34(GBI)-2020">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B34 (GBI)</td>
+                                                <td>Натуральное частично изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B40(GBI)-2020">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B40 (GBI)</td>
+                                                <td>Натуральное частично изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B47(GBI)-2020">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B47 (GBI)</td>
+                                                <td>Натуральное частично изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B69(GBI)-2020">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B69 (GBI)</td>
+                                                <td>Натуральное изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B72(GBI)-2020">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B72 (GBI)</td>
+                                                <td>Натуральное частично изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B73(GBI)-2020">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B73 (GBI)</td>
+                                                <td>Натуральное изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B78(GBI)-2020">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B78 (GBI)</td>
+                                                <td>Натуральное частично изолированное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B84(GBI)-2020">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B84 (GBI)</td>
+                                                <td>Инструментальное</td>
+                                            </tr>
+                                            <tr data-href="http://bj.tochok.info/Pedigree/Buckfast-B85(GBI)-2020">
+                                                <th scope="row">Buckfast</th>
+                                                <td>B85 (GBI)</td>
+                                                <td>Инструментальное</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-none d-sm-block col-sm-2 breed__decoration">
+                        <img src="images/bcg_breed.jpg" alt="родоводы разведение и продажа пчёл">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="our-team">
+            <div class="container">
+                <div class="section-header row">
+                    <h3>Наша команда</h3>
+                    <span class="header__decoration"></span>
+                    <span class="header__decoration"></span>
+                    <span class="header__decoration"></span>
+                </div>
+                <p>Ми вважаємо, що проведення якісної селекційної роботи неможливе без чіткого розділення праці та хорошої згуртованої команди. Команда - найцінніший капітал.</p>
+                <div class="row">
+                    <div class="out-team__content col-lg-10 offset-lg-1">
+                        <div class="owl-carousel our-team__carousel">
+                            <div class="item">
+                                <div class="our-team__photo"><img src="images/photo/gennadiy.jpg" alt=""></div>
+                                <h4>Ізмайлов Геннадій Броніславович</h4>
+                                <p>Почесний пасічник Украіни, стаж в бджільництві - 35 років</p>
+                            </div>
+                            <div class="item">
+                                <div class="our-team__photo"><img src="images/photo/dmitriy.jpg" alt=""></div>
+                                <h4>Олійник Дмитро Юрійович</h4>
+                                <p>Кандидат технічних наук, стаж в бджільництві – 12 років</p>
+                            </div>
+                            <div class="item">
+                                <div class="our-team__photo"><img src="images/photo/kirill.jpg" alt=""></div>
+                                <h4>Бородін Кирило Ігорович</h4>
+                                <p>Лікар ветеринарної медицини, стаж в бджільництві – 12 років</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="dealers">
+            <div class="container">
+                <div class="section-header row">
+                    <h3>Наша дилеры</h3>
+                    <span class="header__decoration"></span>
+                    <span class="header__decoration"></span>
+                    <span class="header__decoration"></span>
+                </div>
                 <ul class="dealers__list">
                     <li class="dealers__item">
                         <h4>Shehriyar Nurullahi <span>(Азербайждан)</span></h4>
@@ -553,169 +557,181 @@
                         <p>+7 904 210 50 48</p>
                     </li>
                 </ul>
-		    </div>
-		</section>
-		<section class="our-bee-gardens">
-			<div class="container">
-				<div class="section-header row">
-					<h3>Наши пасеки</h3>
-					<span class="header__decoration"></span>
-					<span class="header__decoration"></span>
-					<span class="header__decoration"></span>
-				</div>
-				<div class="owl-carousel bee-garden__carousel">
-					<div class="item bee-garden__item bee-garden__image">
-						<img src="images/photo/bee-garden_1.jpg" alt="разведение пчёл пасеки">
-					</div>
-					<div class="item bee-garden__item bee-garden__image">
-						<img src="images/photo/bee-garden_2.jpg" alt="разведение пчёл пасеки">
-					</div>
-					<div class="item bee-garden__item bee-garden__image">
-						<img src="images/photo/bee-garden_3.jpg" alt="разведение пчёл пасеки">
-					</div>
-					<div class="item bee-garden__item bee-garden__image">
-						<img src="images/photo/bee-garden_4.jpg" alt="разведение пчёл пасеки">
-					</div>
-				</div>	   
-			</div>
-		</section>
-		<section class="contacts">
-			<div class="container">
-				<div class="section-header row">
-					<h3>Контакты</h3>
-					<span class="header__decoration"></span>
-					<span class="header__decoration"></span>
-					<span class="header__decoration"></span>
-				</div>
-				<div class="contacts__list row">
-					<div class="contacts-phone col-sm-6 col-lg-3">+38 (00) <span>569-45-86</span></div>
-					<div class="contacts-email col-sm-6 col-lg-3">bee_pasic@gmail.ru</div>
-					<div class="contacts-location col-sm-6 col-lg-3">
-						<p>639584, г. Харьков,</p>
-						<p>ул Достоевского 25, офис 46</p>
-					</div>
-					<ul class="socials col-sm-6 col-lg-3 d-flex">
-						<li><a target="_blank" href="https://www.instagram.com/ukrqueens/"></a></li>
-						<li><a target="_blank" href="https://www.facebook.com/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%B0-%D0%BC%D0%B0%D1%82%D0%BA%D0%BE%D0%B2%D0%B8%D0%B2%D1%96%D0%B4%D0%BD%D0%B0-%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D1%96%D1%8F-2092743264102670/"></a></li>
-					</ul>
-				</div>
-			</div>
-		</section>
-		<section id="map">
-		</section>
-		<section class="request-call">
-			<div class="container">
-				<div class="section-header row">
-					<h3>Заказать Звонок</h3>
-					<span class="header__decoration"></span>
-					<span class="header__decoration"></span>
-					<span class="header__decoration"></span>
-				</div>
-				<p>Если у Вас остались вопросы или Вы хотите подробнее узнать о нас и наших пчелах, запоните форму наже и наши консульанты перезвонят Вам в ближайшее время</p>
-				<form class="request-call__form">
-					<div class="row justify-content-center">
-					  <div class="col-12 col-md-10 col-lg-4">
-					    <input type="text" class="request-call__input form-control" placeholder="Ваше имя">
-					  </div>
-					  <div class="col-12 col-md-10 col-lg-4">
-					    <input type="text" class="request-call__input form-control" placeholder="Ваш телефон">
-					  </div>
-					  <div class="col-12 col-md-10 col-lg-4">
-					  		<button type="submit" class="request-call__btn btn btn-primary">Заказать консультацию</button>
-					  </div>
-					</div>
-				</form>
-			</div>
-		</section>
-	</main>
-	<footer>
-		<div class="container">
-			<div class="row justify-content-between">
-				<div class="footer__title col-12 col-md-auto d-flex">
-					<div class="logo"><img src="images/logo.jpg" alt="українська матковівидна компанія"></div>
-				</div>
-				<ul class="footer-socials col-12 col-md-auto d-flex">
-					<li><a target="_blank" href="https://www.instagram.com/ukrqueens/"></a></li>
-					<li><a target="_blank" href="https://www.facebook.com/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%B0-%D0%BC%D0%B0%D1%82%D0%BA%D0%BE%D0%B2%D0%B8%D0%B2%D1%96%D0%B4%D0%BD%D0%B0-%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D1%96%D1%8F-2092743264102670/"></a></li>
-				</ul>
-				<div class="col-auto footer-contacts header-contacts">
-					<div class="email">bee_pasic@gmail.ru</div>
-					<div class="phone">+38 (00) 00-00-00</div>
-				</div>
-				<button type="button" class="d-none d-lg-block col-auto btn btn_call_request">Заказать звонок</button>
-			</div>
-			<div class="copyright">© 2019 Пчеловодство. Все права защищены.</div>
-		</div>
-	</footer>
+            </div>
+        </section>
+        <section class="our-bee-gardens">
+            <div class="container">
+                <div class="section-header row">
+                    <h3>Наши пасеки</h3>
+                    <span class="header__decoration"></span>
+                    <span class="header__decoration"></span>
+                    <span class="header__decoration"></span>
+                </div>
+                <div class="owl-carousel bee-garden__carousel">
+                    <div class="item bee-garden__item bee-garden__image">
+                        <img src="images/photo/bee-garden_1.jpg" alt="разведение пчёл пасеки">
+                    </div>
+                    <div class="item bee-garden__item bee-garden__image">
+                        <img src="images/photo/bee-garden_2.jpg" alt="разведение пчёл пасеки">
+                    </div>
+                    <div class="item bee-garden__item bee-garden__image">
+                        <img src="images/photo/bee-garden_3.jpg" alt="разведение пчёл пасеки">
+                    </div>
+                    <div class="item bee-garden__item bee-garden__image">
+                        <img src="images/photo/bee-garden_4.jpg" alt="разведение пчёл пасеки">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="container">
+                <div class="section-header row">
+                    <h3>Контакты</h3>
+                    <span class="header__decoration"></span>
+                    <span class="header__decoration"></span>
+                    <span class="header__decoration"></span>
+                </div>
+                <div class="contacts__list row">
+                    <div class="contacts-phone col-sm-6 col-lg-3">
+                        <p>+38 (068) <span>5287 73 51</span></p>
+                        <p>+38 (050) <span>025 50 75</span></p>
+                    </div>
+                    <div class="contacts-email col-sm-6 col-lg-3">apis.ukr@gmail.com</div>
+                    <div class="contacts-location col-sm-6 col-lg-3">
+                        <p>639584, г. Харьков,</p>
+                        <p>ул Достоевского 25, офис 46</p>
+                    </div>
+                    <ul class="socials col-sm-6 col-lg-3 d-flex">
+                        <li><a target="_blank" href="https://www.instagram.com/ukrqueens/"></a></li>
+                        <li><a target="_blank" href="https://www.facebook.com/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%B0-%D0%BC%D0%B0%D1%82%D0%BA%D0%BE%D0%B2%D0%B8%D0%B2%D1%96%D0%B4%D0%BD%D0%B0-%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D1%96%D1%8F-2092743264102670/"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="map">
+        </section>
+        <section class="request-call">
+            <div class="container">
+                <div class="section-header row">
+                    <h3>Заказать Звонок</h3>
+                    <span class="header__decoration"></span>
+                    <span class="header__decoration"></span>
+                    <span class="header__decoration"></span>
+                </div>
+                <p>Если у Вас остались вопросы или Вы хотите подробнее узнать о нас и наших пчелах, запоните форму наже и наши консульанты перезвонят Вам в ближайшее время</p>
+                <form class="request-call__form">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-10 col-lg-4">
+                            <input type="text" class="request-call__input form-control" placeholder="Ваше имя">
+                        </div>
+                        <div class="col-12 col-md-10 col-lg-4">
+                            <input type="text" class="request-call__input form-control" placeholder="Ваш телефон">
+                        </div>
+                        <div class="col-12 col-md-10 col-lg-4">
+                            <button type="submit" class="request-call__btn btn btn-primary">Заказать консультацию</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="footer__title col-12 col-md-auto d-flex">
+                    <div class="logo"><img src="images/logo.jpg" alt="українська матковівидна компанія"></div>
+                </div>
+                <ul class="footer-socials col-12 col-md-auto d-flex">
+                    <li><a target="_blank" href="https://www.instagram.com/ukrqueens/"></a></li>
+                    <li><a target="_blank" href="https://www.facebook.com/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%B0-%D0%BC%D0%B0%D1%82%D0%BA%D0%BE%D0%B2%D0%B8%D0%B2%D1%96%D0%B4%D0%BD%D0%B0-%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D1%96%D1%8F-2092743264102670/"></a></li>
+                </ul>
+                <div class="col-auto footer-contacts header-contacts">
+                    <div class="email">apis.ukr@gmail.com</div>
+                    <div class="phone">
+                        <p>+38 (068) 287 73 51</p>
+                        <p>+38 (050) 025 50 75</p>
+                    </div>
+                </div>
+                <button type="button" class="d-none d-lg-block col-auto btn btn_call_request">Заказать звонок</button>
+            </div>
+            <div class="copyright">© 2019 Пчеловодство. Все права защищены.</div>
+        </div>
+    </footer>
 
-	
 
-   <script>
-       
-       $('tr[data-href]').on("click", function() {
-        document.location = $(this).data('href');
-    });
-       
-	function initMap() {
-	  const myLatLng = { lat: 49.94226399215445, lng: 36.23969134038095};
-	  const map = new google.maps.Map(document.getElementById("map"), {
-	    zoom: 15,
-	    center: myLatLng,
-	  });
-	  const image =
-	          "images/icons/map_mark.png";
-	  const beachMarker = new google.maps.Marker({
-	          position: { lat: 49.94226399215445, lng: 36.23969134038095},
-	          map,
-	          icon: image,
-	        });
-	}
 
-	$('.our-team__carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    navText: [
-  '<span class="arrow-owl arrow-previous"></span>',
-  '<span class="arrow-owl arrow-next"></span>'
-],
-    responsive:{
-        0:{
-            items:1
-        },
-        800:{
-            items:2
-        },
-        1250:{
-            items:3
+    <script>
+        $('tr[data-href]').on("click", function() {
+            document.location = $(this).data('href');
+        });
+
+        function initMap() {
+            const myLatLng = {
+                lat: 49.94226399215445,
+                lng: 36.23969134038095
+            };
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 15,
+                center: myLatLng,
+            });
+            const image =
+                "images/icons/map_mark.png";
+            const beachMarker = new google.maps.Marker({
+                position: {
+                    lat: 49.94226399215445,
+                    lng: 36.23969134038095
+                },
+                map,
+                icon: image,
+            });
         }
-    }
-})
 
-	$('.bee-garden__carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    navText: [
-  '<span class="arrow-owl arrow-previous"></span>',
-  '<span class="arrow-owl arrow-next"></span>'
-],
-    responsive:{
-        0:{
-            items:1
-        },
-        800:{
-            items:2
-        },
-        1000:{
-        		items:3
-        },
-        1250:{
-            items:4
-        }
-    }
-})
+        $('.our-team__carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            navText: [
+                '<span class="arrow-owl arrow-previous"></span>',
+                '<span class="arrow-owl arrow-next"></span>'
+            ],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                800: {
+                    items: 2
+                },
+                1250: {
+                    items: 3
+                }
+            }
+        })
 
-	</script> 
+        $('.bee-garden__carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            navText: [
+                '<span class="arrow-owl arrow-previous"></span>',
+                '<span class="arrow-owl arrow-next"></span>'
+            ],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                800: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                },
+                1250: {
+                    items: 4
+                }
+            }
+        })
+
+    </script>
 </body>
+
 </html>
