@@ -162,6 +162,9 @@ header {
     width: 180px;
     height: auto;
 }
+ .logo>.logo_en{
+    width: 130px;
+}
 
 /*header-contacts*/
 
@@ -1020,6 +1023,10 @@ footer .btn_call_request {
         width: 310px;
         height: auto;
     }
+    
+    .logo>.logo_en{
+    width: 210px;
+}
 
     .header-contacts {
         align-self: center;
