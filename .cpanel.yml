@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/ukrqueen/public_html/
-    - /bin/cp -R repositories/pchelovodstvo $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
