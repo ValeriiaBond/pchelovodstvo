@@ -1,37 +1,37 @@
 @font-face {
-    font-family: 'geometria_regular';
-    src: url('../fonts/geometria_regular/geometria-webfont.eot');
-    src: url('../fonts/geometria_regular/geometria-webfont.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/geometria_regular/geometria-webfont.woff2') format('woff2'),
-        url('../fonts/geometria_regular/geometria-webfont.woff') format('woff');
+    font-family: "geometria_regular";
+    src: url("../fonts/geometria_regular/geometria-webfont.eot");
+    src: url("../fonts/geometria_regular/geometria-webfont.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/geometria_regular/geometria-webfont.woff2") format("woff2"),
+        url("../fonts/geometria_regular/geometria-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'geometria_medium';
-    src: url('../fonts/geometria_medium/geometria-medium-webfont.eot');
-    src: url('../fonts/geometria_medium/geometria-medium-webfont.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/geometria_medium/geometria-medium-webfont.woff2') format('woff2'),
-        url('../fonts/geometria_medium/geometria-medium-webfont.woff') format('woff'),
-        url('../fonts/geometria_medium/geometria-medium-webfont.ttf') format('truetype');
+    font-family: "geometria_medium";
+    src: url("../fonts/geometria_medium/geometria-medium-webfont.eot");
+    src: url("../fonts/geometria_medium/geometria-medium-webfont.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/geometria_medium/geometria-medium-webfont.woff2") format("woff2"),
+        url("../fonts/geometria_medium/geometria-medium-webfont.woff") format("woff"),
+        url("../fonts/geometria_medium/geometria-medium-webfont.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'geometria_medium_italic';
-    src: url('../fonts/geometria_italic/geometria-mediumitalic-webfont.eot');
-    src: url('../fonts/geometria_italic/geometria-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/geometria_italic/geometria-mediumitalic-webfont.woff2') format('woff2'),
-        url('../fonts/geometria_italic/geometria-mediumitalic-webfont.woff') format('woff'),
-        url('../fonts/geometria_italic/geometria-mediumitalic-webfont.ttf') format('truetype');
+    font-family: "geometria_medium_italic";
+    src: url("../fonts/geometria_italic/geometria-mediumitalic-webfont.eot");
+    src: url("../fonts/geometria_italic/geometria-mediumitalic-webfont.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/geometria_italic/geometria-mediumitalic-webfont.woff2") format("woff2"),
+        url("../fonts/geometria_italic/geometria-mediumitalic-webfont.woff") format("woff"),
+        url("../fonts/geometria_italic/geometria-mediumitalic-webfont.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-    font-family: 'geometria_regular';
+    font-family: "geometria_regular";
     color: #855d3d;
     font-size: 16px;
     text-align: justify;
@@ -39,6 +39,7 @@ body {
 
 p {
     font-size: 12px;
+    line-height: 2;
 }
 
 li {
@@ -60,7 +61,11 @@ a:hover {
     margin-bottom: 5px;
     text-transform: uppercase;
 }
-
+h1 {
+    display: inline;
+    font-size: 12px;
+    line-height: 1.5;
+}
 h2 {
     text-transform: uppercase;
     font-size: 10px;
@@ -72,13 +77,13 @@ h3 {
     padding-bottom: 16px;
     margin-right: 15px;
     margin-bottom: 0;
-    font-family: 'geometria_medium';
+    font-family: "geometria_medium";
 }
 
 h4 {
     text-transform: uppercase;
     font-size: 12px;
-    font-family: 'geometria_medium';
+    font-family: "geometria_medium";
     padding-left: 7px;
     border-left: 3px solid #fb7517;
     text-align: left;
@@ -96,7 +101,7 @@ h4 {
 
 .header__decoration:before,
 .header__decoration:after {
-    content: '';
+    content: "";
     border-right: 5px solid transparent;
     border-left: 5px solid transparent;
     position: absolute;
@@ -124,12 +129,10 @@ h4 {
 .contacts-location:before,
 .socials > li > a,
 .footer-socials > li > a {
-    content: '';
+    content: "";
     background: url(../images/icons/css_sprites_icons.png);
     position: absolute;
 }
-
-
 
 /*------------header-----------*/
 
@@ -155,18 +158,18 @@ header {
 }
 
 /*logo and title*/
-.logo{
+.logo {
     width: 150px;
     position: relative;
 }
- .logo>.logo_en{
-     width: 100px;
-     position: absolute;
-     left: 50%;
-     top: 0;
-     transform: translateX(-50%);
+.logo > .logo_en {
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
 }
-.title_en{
+.title_en {
     text-transform: uppercase;
     font-size: 11px;
     color: #000;
@@ -174,46 +177,39 @@ header {
     position: relative;
     width: 100%;
 }
-.title__word{
+.title__word {
     position: absolute;
 }
-.word-1{
-    font-family: 'geometria_medium';
+.word-1 {
+    font-family: "geometria_medium";
     bottom: 0;
     left: -4px;
 }
-.word-2{
-    font-family: 'geometria_medium';
+.word-2 {
+    font-family: "geometria_medium";
     bottom: 0;
     right: -38px;
 }
 
-.word-3{
+.word-3 {
     letter-spacing: 5px;
     bottom: -20px;
     left: 50%;
     transform: translateX(-50%);
 }
 
-
 .title {
     margin-left: 8px;
 }
-
-
-
-
-
 
 .logo img {
     width: 180px;
     height: auto;
 }
 
-
 /*header-contacts*/
 
-.header-contacts{
+.header-contacts {
     font-size: 14px;
 }
 
@@ -253,7 +249,7 @@ header {
     background-color: #9d704b;
     color: #ffffff;
     font-size: 16px;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
 }
 
 .btn_call_request:hover {
@@ -268,10 +264,10 @@ header {
 .lang__btn a {
     display: block;
     text-align: center;
-            width: 50px;
-        height: 50px;
-        font-size: 14px;
-        padding-top: 12px;
+    width: 50px;
+    height: 50px;
+    font-size: 14px;
+    padding-top: 12px;
     box-sizing: border-box;
     background: url(../images/backgrounds/hexagon_filled.svg) no-repeat, url(../images/backgrounds/hexagon_dark.svg);
     background-size: cover;
@@ -283,7 +279,6 @@ header {
     color: #fff;
 }
 
-
 /*--------about us section---------*/
 
 .about-us__content {
@@ -293,12 +288,12 @@ header {
 
 .about-us__content:before,
 .about-us__content:after {
-    content: '';
+    content: "";
     position: absolute;
     left: -100%;
     right: 0;
     height: 2px;
-    background: #ffe7bc
+    background: #ffe7bc;
 }
 
 .about-us__content:before {
@@ -307,6 +302,9 @@ header {
 
 .about-us__content:after {
     bottom: 0;
+}
+.about-us__description > p:first-child {
+    display: inline;
 }
 
 /*-------products AND bee-garden sections-----*/
@@ -341,7 +339,8 @@ header {
 }
 
 .product__image {
-    background: url(../images/backgrounds/hexagon.svg) 0 -7% no-repeat, url(../images/backgrounds/hexagon_filled.svg) 100% 85% no-repeat;
+    background: url(../images/backgrounds/hexagon.svg) 0 -7% no-repeat,
+        url(../images/backgrounds/hexagon_filled.svg) 100% 85% no-repeat;
     background-size: 123px 142px;
 }
 
@@ -349,9 +348,6 @@ header {
 .bee-garden__item {
     margin-bottom: 30px;
 }
-
-
-
 
 /*.product__image img{
 	position: relative;
@@ -408,7 +404,7 @@ header {
 
 .breed__decoration:before,
 .breed__decoration:after {
-    content: '';
+    content: "";
     width: 175px;
     height: 201px;
     position: absolute;
@@ -469,14 +465,13 @@ header {
     background-color: #9d704b;
     color: #ffffff;
     font-size: 16px;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
 }
 
 .breed-year__btn-know-more:hover {
     color: #fff;
     transform: scale(1.05);
 }
-
 
 /*-------------our-team-----------------*/
 
@@ -487,8 +482,8 @@ header {
 
 .our-team__photo {
     position: relative;
-    margin-bottom: 27px;
     width: 265px;
+    margin: 0 auto 27px;
 }
 
 .out-team__content {
@@ -506,7 +501,7 @@ header {
 }
 
 .our-team__photo:before {
-    content: '';
+    content: "";
     width: 166px;
     height: 190px;
     position: absolute;
@@ -516,7 +511,7 @@ header {
     background-size: 175px 201px;
 }
 
-.our-team__carousel p{
+.our-team__carousel p {
     padding-right: 20px;
 }
 
@@ -546,7 +541,7 @@ button:focus {
 
 .arrow-previous:before,
 .arrow-next:before {
-    content: '';
+    content: "";
     display: block;
     width: 20px;
     height: 20px;
@@ -575,8 +570,6 @@ button:focus {
 
 /*-----------dealers----------*/
 
-
-
 .dealers {
     padding-top: 45px;
     padding-bottom: 48px;
@@ -584,7 +577,7 @@ button:focus {
 }
 
 .dealers:before {
-    content: '';
+    content: "";
     position: absolute;
     left: -100%;
     right: 25%;
@@ -605,7 +598,6 @@ button:focus {
     padding-right: 10px;
 }
 
-
 .dealers__item span {
     font-size: 12px;
 }
@@ -620,7 +612,6 @@ button:focus {
 
 /*--------bee-gardens----------*/
 
-
 .bee-garden__item.bee-garden__image img {
     position: relative;
     z-index: 10;
@@ -632,7 +623,7 @@ button:focus {
 }
 
 .bee-garden__image:after {
-    content: '';
+    content: "";
     width: 166px;
     height: 190px;
     position: absolute;
@@ -643,7 +634,7 @@ button:focus {
 }
 
 .bee-garden__image:before {
-    content: '';
+    content: "";
     width: 166px;
     height: 190px;
     position: absolute;
@@ -652,10 +643,6 @@ button:focus {
     background: url(../images/backgrounds/hexagon_dark.svg) no-repeat;
     background-size: 175px 201px;
 }
-
-
-
-
 
 /*------------contacts-----------------*/
 
@@ -687,7 +674,7 @@ button:focus {
     font-size: 14px;
 }
 
-.contacts-phone >p> span {
+.contacts-phone > p > span {
     font-size: 22px;
     color: #403933;
 }
@@ -767,7 +754,6 @@ button:focus {
 
 /*--------request-call--------------*/
 
-
 .request-call {
     padding-top: 45px;
     padding-bottom: 50px;
@@ -833,7 +819,7 @@ input[type="text"]::placeholder {
     background: transparent;
     border: 2px solid #ffe7bc;
     color: #fff;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
 }
 
 .request-call__btn:hover {
@@ -899,26 +885,6 @@ footer .btn_call_request {
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 576px) {
     .main-title {
         font-size: 26px;
@@ -950,7 +916,6 @@ footer .btn_call_request {
         left: 0;
     }
 
-
     .about-us {
         background-image: url(../images/backgrounds/about-us_mobile.png);
         background-size: 380px auto;
@@ -967,58 +932,22 @@ footer .btn_call_request {
         padding: 20px;
     }
 
-
     .contacts__list {
         margin-left: 0;
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 768px) {
-
     .breed__decoration img {
         width: 210px;
         height: 242px;
     }
     .footer-contacts {
-    margin: 0;
+        margin: 0;
+    }
 }
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (min-width: 992px) {
-
     .main-title {
         font-size: 33px;
         margin-bottom: 8px;
@@ -1039,8 +968,10 @@ footer .btn_call_request {
         border-left: 5px solid #fb7517;
     }
 
-    p {
+    p,
+    h1 {
         font-size: 14px;
+        line-height: 1.5;
     }
 
     header {
@@ -1055,7 +986,7 @@ footer .btn_call_request {
     .menu__collapse {
         justify-content: flex-end;
     }
-    .lang__btn-group{
+    .lang__btn-group {
         margin-left: 30px;
     }
 
@@ -1063,38 +994,37 @@ footer .btn_call_request {
         margin-top: -367px;
         background: none;
     }
-    .logo{
-    width: 250px;
-}
- .logo>.logo_en{
-     width: 130px;
-     left: 42%;
-}
-.title_en{
-    font-size: 14px;
-    padding-top: 84px;
-}
-.title__word{
-    position: absolute;
-}
-.word-1{
-    font-family: 'geometria_medium';
-    bottom: 4px;
-    left: 0;
-}
-.word-2{
-    font-family: 'geometria_medium';
-    bottom: 4px;
-    right: 0;
-}
+    .logo {
+        width: 250px;
+    }
+    .logo > .logo_en {
+        width: 130px;
+        left: 42%;
+    }
+    .title_en {
+        font-size: 14px;
+        padding-top: 84px;
+    }
+    .title__word {
+        position: absolute;
+    }
+    .word-1 {
+        font-family: "geometria_medium";
+        bottom: 4px;
+        left: 0;
+    }
+    .word-2 {
+        font-family: "geometria_medium";
+        bottom: 4px;
+        right: 0;
+    }
 
-.word-3{
-    letter-spacing: 5px;
-    bottom: -20px;
-    left: 42%;
-    transform: translateX(-50%);
-}
-
+    .word-3 {
+        letter-spacing: 5px;
+        bottom: -20px;
+        left: 42%;
+        transform: translateX(-50%);
+    }
 
     .logo img {
         width: 310px;
@@ -1110,7 +1040,6 @@ footer .btn_call_request {
         padding-bottom: 79px;
     }
 
-
     .header__decoration {
         display: inline-block;
         width: 14px;
@@ -1123,7 +1052,7 @@ footer .btn_call_request {
 
     .header__decoration:before,
     .header__decoration:after {
-        content: '';
+        content: "";
         border-right: 7px solid transparent;
         border-left: 7px solid transparent;
         position: absolute;
@@ -1148,8 +1077,8 @@ footer .btn_call_request {
         background-size: 300px auto;
     }
     .breed {
-    background: linear-gradient(#fff5e3 89%, #fff 89%);
-}
+        background: linear-gradient(#fff5e3 89%, #fff 89%);
+    }
 
     .breed .header__decoration:before,
     .our-bee-gardens .header__decoration:before {
@@ -1168,7 +1097,7 @@ footer .btn_call_request {
 
     .breed__decoration:before,
     .breed__decoration:after {
-        content: '';
+        content: "";
         width: 262px;
         height: 302px;
         background-size: 262px 302px;
@@ -1207,23 +1136,7 @@ footer .btn_call_request {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 1440px) {
-
     header {
         background-image: url(../images/backgrounds/about-us.jpg);
         background-size: 855px auto;
@@ -1260,7 +1173,7 @@ footer .btn_call_request {
 
     .breed__decoration:before,
     .breed__decoration:after {
-        content: '';
+        content: "";
         width: 262px;
         height: 302px;
         background-size: 262px 302px;
@@ -1289,20 +1202,7 @@ footer .btn_call_request {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 1840px) {
-
     header {
         background-size: auto;
         background-position-x: calc(100% + 285px);
@@ -1321,7 +1221,7 @@ footer .btn_call_request {
 
     .breed__decoration:before,
     .breed__decoration:after {
-        content: '';
+        content: "";
         width: 525px;
         height: 605px;
         background-size: 525px 605px;
@@ -1337,7 +1237,6 @@ footer .btn_call_request {
         right: -62px;
     }
 
-
     .our-bee-gardens {
         margin-bottom: -190px;
     }
@@ -1348,6 +1247,4 @@ footer .btn_call_request {
         background-position-y: 0;
         background-size: auto;
     }
-
-
 }
