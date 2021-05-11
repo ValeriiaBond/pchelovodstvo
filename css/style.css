@@ -64,7 +64,7 @@ a:hover {
 h1 {
     display: inline;
     font-size: 12px;
-    line-height: 1.5;
+    line-height: 2;
 }
 h2 {
     text-transform: uppercase;
@@ -162,7 +162,7 @@ header {
     width: 150px;
     position: relative;
 }
-.logo > .logo_en {
+/* .logo > .logo_en {
     width: 100px;
     position: absolute;
     left: 50%;
@@ -170,13 +170,14 @@ header {
     transform: translateX(-50%);
 }
 .title_en {
+    display: block;
     text-transform: uppercase;
     font-size: 11px;
     color: #000;
     padding-top: 60px;
     position: relative;
     width: 100%;
-}
+} */
 .title__word {
     position: absolute;
 }
@@ -971,7 +972,7 @@ footer .btn_call_request {
     p,
     h1 {
         font-size: 14px;
-        line-height: 1.5;
+        line-height: 2;
     }
 
     header {
@@ -997,14 +998,14 @@ footer .btn_call_request {
     .logo {
         width: 250px;
     }
-    .logo > .logo_en {
+    /* .logo > .logo_en {
         width: 130px;
         left: 42%;
     }
     .title_en {
         font-size: 14px;
         padding-top: 84px;
-    }
+    } */
     .title__word {
         position: absolute;
     }
